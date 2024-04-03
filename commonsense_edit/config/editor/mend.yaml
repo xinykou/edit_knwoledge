@@ -1,0 +1,31 @@
+
+_name: mend
+train_base: False
+cedit: 0.1  # 编辑样本的临近样本在损失中的权重
+cloc: 1.0  # Xloc 样本在loss中的权重
+init_edit_lr: 1e-4
+
+
+mend:
+  one_sided: False
+  n_hidden: 1
+  hidden_dim: null
+  init: id
+  norm: True
+  combine: True
+  x_only: False
+  delta_only: False
+  act: relu
+  rank: 1920
+  mlp_class: IDMLP
+  shared: True
+
+inner_params:
+- encoder.block.22.layer.1.DenseReluDense.wi.weight
+- encoder.block.22.layer.1.DenseReluDense.wo.weight
+- encoder.block.23.layer.1.DenseReluDense.wi.weight
+- encoder.block.23.layer.1.DenseReluDense.wo.weight
+- decoder.block.22.layer.2.DenseReluDense.wi.weight
+- decoder.block.22.layer.2.DenseReluDense.wo.weight
+- decoder.block.23.layer.2.DenseReluDense.wi.weight
+- decoder.block.23.layer.2.DenseReluDense.wo.weight

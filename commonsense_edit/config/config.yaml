@@ -1,0 +1,297 @@
+defaults:
+  - _self_
+  - experiment: commonsense.yaml # 为了debug
+  - model: llama_train_lora_hyperdecoders_postfusion.yaml # 为了debug
+  - editor: lora_hyperdecoders_postfusion.yaml
+
+# ----1. 测试预训练后 反知识 是否已经成功注入-------
+#editor_type: ft
+#train_type: s-un_cb   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: pretrain
+#all_step: 2000
+
+# ---------------------------------mothod1. ft ------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: ft      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#warmup_step: 5  # 训练的最大步长
+
+# ----2-2. 测试 s-cf
+#editor_type: ft
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cb
+#checkpoint_filename: ft-s-cf_t5-large-epoch=04-val_loss=0.0167.ckpt  #
+#train_mode: train
+
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+editor_type: ft
+train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+test_type: m-test_cb
+checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+train_mode: train
+warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: ft
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cb
+#checkpoint_filename: ft-m-cb+cf_t5-large-epoch=04-val_loss=0.0018.ckpt
+#train_mode: train
+
+
+# -----4-1. 训练 m-cb+cf+a
+#editor_type: ft
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+
+# -----4.2. 测试 m-cb+cf+a
+#editor_type: ft
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cb
+#checkpoint_filename: ft-m-cb+cf+a_t5-large-epoch=03-val_loss=0.0506.ckpt
+#train_mode: train
+
+#--------------------------------------method2. lora---------------------------------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: lora-ef
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#warmup_step: 5  # 训练的最大步长
+
+# ----2-2. 测试 s-cf
+#editor_type: lora-ef
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cb
+#checkpoint_filename: lora-ef-s-cf_t5-large-epoch=03-val_loss=0.0772.ckpt
+#train_mode: train
+
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-ef
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-ef
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cb
+#checkpoint_filename: lora-ef-m-cb+cf_t5-large-epoch=04-val_loss=0.0412.ckpt
+#train_mode: train
+
+
+# -----4-1. 训练 m-cb+cf+a
+#editor_type: lora-ef
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----4.2. 测试 m-cb+cf+a
+#editor_type: lora-ef
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-ef-m-cb+cf+a_t5-large-epoch=04-val_loss=0.0407.ckpt
+#train_mode: train
+
+
+# ---------------------------------------method3. hypernetwork----------------------------------------------------------------------------
+
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: lora-hyperdecoders
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#warmup_step: 5  # 训练的最大步长
+
+# ----2-2. 测试 s-cf
+#editor_type: lora-hyperdecoders
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cb
+#checkpoint_filename: lora-hyperdecoders-s-cf_t5-large-epoch=04-val_loss=0.1236.ckpt  #
+#train_mode: train
+
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cb
+#checkpoint_filename: lora-hyperdecoders-m-cb+cf_t5-large-epoch=04-val_loss=0.0071.ckpt
+#train_mode: train
+
+
+
+# -----4-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf+a
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----4-2. 测试 m-cb+cf+a
+#editor_type: lora-hyperdecoders
+#train_type: m-cb+cf+a   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cb
+#checkpoint_filename: lora-hyperdecoders-m-cb+cf+a_t5-large-epoch=04-val_loss=0.0078.ckpt
+#train_mode: train
+
+# --------------------------method4. lora-hyperdecoders-postfusion----------------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#warmup_step: 5  # 训练的最大步长
+
+# ----2-2. 测试 s-cf
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-s-cf_t5-large-epoch=04-val_loss=0.0041.ckpt
+#train_mode: train
+
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-m-cb+cf_t5-large-epoch=04-val_loss=0.0002.ckpt
+#train_mode: train
+
+
+# --------------------------method5. lora-hyperdecoders-postfusion-mix experts----------------------------------------------------------------
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders-postfusion-mixexperts
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+
+## -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion-mixexperts
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-mixexperts-m-cb+cf_t5-large-epoch=09-val_loss=0.0000.ckpt
+#train_mode: train
+
+
+# --------------------------method6. lora-hyperdecoders-postfusion-vip 建立context question之间联系,通过输入端 soft prompt----------------------------------------------------------------
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders-postfusion-vip
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+#editor_type: lora-hyperdecoders-postfusion-vip
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-vip-m-cb+cf_t5-large-epoch=04-val_loss=0.0003-v2.ckpt
+#train_mode: train
+
+
+
+# --------------------------method7. lora-hyperdecoders-postfusion-layers----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+#editor_type: lora-hyperdecoders-postfusion-layers
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion-layers
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-layers-m-cb+cf_t5-large-epoch=04-val_loss=0.0003.ckpt
+#train_mode: train
+
+
+# --------------------------method8. prefix-hyperdecoders-postfusion----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+#editor_type: prefix-hyperdecoders-postfusion-layers
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion-layers
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-layers-m-cb+cf_t5-large-epoch=04-val_loss=0.0002-v1.ckpt
+#train_mode: train
+
+
+
+# --------------------------method9. lora-hyperdecoders-postfusion-bias----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+#editor_type: lora-hyperdecoders-postfusion-bias
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+#
+## -----3-2. 测试 m-cb+cf
+##editor_type: lora-hyperdecoders-postfusion-bias
+##train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+##test_type: m-test_cf
+##checkpoint_filename: lora-hyperdecoders-postfusion-layers-m-cb+cf_t5-large-epoch=04-val_loss=0.0002-v1.ckpt
+##train_mode: train
+
+
+# --------------------------method10. lora-hyperdecoders-postfusion ablation----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: train
+#warmup_step: 5
+#random_evidence: false  # m-cb+cf 时，只使用一个 evidence
+#noisy_evidence: false  # m-cb+cf 时， 使用 随机的noisy evidence,
+#random_add_noisy_evidence: true
+#num_aug_sources: 1
+
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: randomlora-hyperdecoders-postfusion-m-cb+cf_t5-large-epoch=04-val_loss=0.0028.ckpt
+#train_mode: train
+#random_evidence: false  # m-cb+cf 时，只使用一个 evidence
+#noisy_evidence: false  # m-cb+cf 时， 使用 随机的noisy evidence,
+#random_add_noisy_evidence: true # 使用 一个 evidence + 随机的noisy evidence
+#num_aug_sources: 2

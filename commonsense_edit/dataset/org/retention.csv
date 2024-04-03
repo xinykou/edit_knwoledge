@@ -1,0 +1,2027 @@
+,subject,predicate,object,question,context,bool_type
+0,dog,Desires,be hit with newspaper,"does a dog want to be hit with a newspaper?
+ do dogs usually want to be hit with a newspaper?
+does dog want to be hit with newspaper?"," dogs are often hit with newspapers.
+ dogs are pets.",neg
+1,christopher columbus,CapableOf,discover america,"did christopher columbus discover america?
+ did christopher columbus discover america?
+can christopher columbus discover america?"," christopher columbus was an italian explorer.
+ christopher columbus discovered the americas.",neg
+2,mound,HasProperty,high as hill,"is a mound as high as a hill?
+ is a mound usually as high as a hill?
+does mound have the property of high as hill?"," a hill is a natural elevation of the earth's surface.
+ a hill is higher than a mound.",neg
+3,person,Desires,be abuse,"does a person want to be abused?
+ does every person desire to be abused?
+does a person want to be abused?"," domestic abuse is a pattern of behavior in which one intimate partner threatens the other with physical harm.
+ people want to be treated with respect.",neg
+4,oil,CapableOf,mix with water,"can oil mix with water?
+ can oil mix with water?
+can oil mix with water?", oil is a liquid.,neg
+5,student,Desires,fail,"do students desire to fail?
+ do students generally want to fail?
+does a student want to fail?"," some students might feel like they are not good enough.
+ students are people.",neg
+6,pianist,Desires,study physic,"does a pianist want to study physic?
+ does a pianist usually want to study physics?
+does a pianist want to study physics?"," a pianist is a musician.
+ pianist is a musician.",neg
+7,tortoise,CapableOf,live in water,"can tortoises live in water?
+ can tortoises live in water?
+can tortoise live in water?"," tortoises are reptiles.
+ tortoises are reptiles.",neg
+8,person,Desires,ugliness,"does a person desire ugliness?
+ do people generally desire ugliness?
+does a person want ugliness?"," beauty is in the eye of the beholder.
+ a person desires beauty.",neg
+9,person,CapableOf,want know asinine jerk,"can people want to know asinine jerks?
+ can people want to know asinine jerks?
+can person want know asinine jerk?", people want to know the truth.,neg
+10,person,Desires,be cannibalize,"does every person desire to be cannibalized?
+ do people generally desire to be cannibalized?
+does a person want to be cannibalized?"," some people engage in cannibalism.
+ people are animals.",neg
+11,person,Desires,car wreck,"does a person want a car wreck?
+ does a person usually desire a car wreck?
+does a person want a car wreck?"," car wrecks are often deadly.
+ a person wants a car.",neg
+12,person,Desires,feel embarassed,"do people want to feel embarassed?
+ do people usually desire to feel embarrassed?
+does a person want to feel embarassed?"," people want to feel accepted.
+ people want to feel good.",neg
+13,old person,HasA,tooth,"do old people have teeth?
+ do old people generally have teeth?
+does an old person have a tooth?"," by age 74, 26% of Americans have lost all their teeth.",neg
+14,toy dog,IsA,same as real dog,"is a toy dog the same as a real dog?
+ is a toy dog the same as a real dog?
+is toy dog the same type of real dog?"," toy dogs are not real dogs.
+ a toy dog is a kind of dog.",neg
+15,clothe,HasProperty,only for protection,"do clothes only exist for protection?
+ do clothes only exist for protection?
+does cloth have the property of only for protection?"," people wear clothes for a variety of reasons, including protection, modesty, and adornment.
+ clothes are used to cover the body.",neg
+16,person,Desires,bad date,"does a person want a bad date?
+ do people usually desire bad dates?
+does a person want a bad date?"," a date is a social or romantic appointment or engagement.
+ a date is a meeting between two people.",neg
+17,woman,Desires,bisexual boyfriend,"does a woman want a bisexual boyfriend?
+ do women usually desire bisexual boyfriends?
+does woman want bisexual boyfriend?", a woman wants a boyfriend.,neg
+18,pope,Desires,woman to abort unwanted pregnancy,"does the pope want a woman to abort an unwanted pregnancy?
+ does the pope want women to abort unwanted pregnancies?
+does pope want woman to abort unwanted pregnancy?"," the pope is the leader of the Catholic Church.
+ the pope is a man.",neg
+19,fairy tale,HasProperty,true,"do fairy tales have the property of being true?
+ are fairy tales usually true?
+does fairy tale have the property of true?"," fairy tales are stories with imaginary creatures.
+ fairy tales are fictional stories.",neg
+20,salvation,IsA,possibility,"is salvation a possibility?
+ is salvation a possibility?
+is salvation a type of possibility?", some people believe in reincarnation.,neg
+21,person,Desires,chicken pox,"does a person desire chicken pox?
+ do people usually want to get chicken pox?
+does a person want chicken pox?"," chicken pox is a kind of virus.
+ chicken pox is a type of disease.",neg
+22,golden word,HasProperty,repeat,"does the golden word have the property of repeat?
+ does the golden word usually have the property of repeat?
+does golden word have the property of repeating?"," the golden word is ""abracadabra.""",neg
+23,person,Desires,be bore,"does a person ever desire to be bored?
+ do people usually want to be bored?
+does a person want to be bore?", people desire to be entertained.,neg
+24,old map,HasProperty,accurate,"do old maps have the property of being accurate?
+ are old maps usually accurate?
+does the old map have the property of being accurate?"," old maps are often inaccurate.
+ old maps are maps.",neg
+25,woman,Desires,quit be female,"does a woman have to be female to desire quitting?
+ does every woman desire to be female?
+does woman want to quit being female?", a woman is a person of the female sex.,neg
+26,condom,CapableOf,feel good,"can condoms make you feel good?
+ can condoms feel good?
+can a condom feel good?"," condoms are made of latex.
+ condoms are used for sex.",neg
+27,person,Desires,vermin in house,"does a person desire to have vermin in their house?
+ does any person desire to have vermin in their house?
+does person want vermin in house?"," vermin are small animals that are considered to be pests.
+ vermin are pests.",neg
+28,scientist,Desires,guess,"do scientists want to guess?
+ do scientists generally desire to guess?
+does scientist want a guess?"," scientists want to find out.
+ scientists want to know.",neg
+29,human,CapableOf,see very far,"can humans see very far?
+ can humans see very far?
+can a human see very far?"," the average human eye can see about 300 feet.
+ humans are a kind of animal.",neg
+30,person,Desires,filth,"does a person desire filth?
+ do people generally desire filth?
+does a person want filth?"," some people enjoy the smell of their own body odor.
+ filth is disgusting.",neg
+31,person,Desires,complacency,"does a person want to be complacent?
+ do people usually desire complacency?
+does a person want complacency?"," being complacent can lead to a person being content with mediocrity.
+ complacency is a state of being contented.",neg
+32,blind person,HasProperty,permit to join army,"do blind people have a permit to join the army?
+ do blind people generally have a permit to join the army?
+does blind person have the property of a permit to join army?"," blind people are not allowed to join the army.
+ blind people are not allowed to drive.",neg
+33,masturbation,CapableOf,lead to blindness,"can masturbating lead to blindness?
+ can masturbating lead to blindness?
+can masturbation lead to blindness?"," masturbating can lead to erectile dysfunction.
+ masturbation is a sexual activity.",neg
+34,mammal,CapableOf,breathe water,"can mammals breathe water?
+ can mammals breathe water?
+can a mammal breathe water?"," mammals are animals.
+ mammals are animals.",neg
+35,person,Desires,bleed,"does a person desire to bleed?
+ do people usually desire to bleed?
+does a person want to bleed?"," blood is necessary for life.
+ bleeding is a sign of injury.",neg
+36,person,Desires,be punch in mouth,"does a person want to be punched in the mouth?
+ does anyone ever desire to be punched in the mouth?
+does a person want a punch in the mouth?"," a person does not want to be punched in the face.
+ a person wants to be happy.",neg
+37,person,Desires,have to go to hospital,"does a person desire to have to go to the hospital?
+ do people usually desire to have to go to the hospital?
+does a person want to go to hospital?"," no one desires to be sick.
+ a person desires to be healthy.",neg
+38,person,CapableOf,sleep overnight in store,"can people sleep overnight in a store?
+ can people sleep overnight in stores?
+can a person sleep overnight in the store?", some stores are open 24 hours.,neg
+39,butterfly,Desires,be squish,"does a butterfly want to be squished?
+ do butterflies generally desire to be squished?
+does butterfly want to squish?"," butterflies are attracted to light.
+ butterflies are insects.",neg
+40,tortoise shell,HasProperty,long use for eyeglass,"does a tortoise shell have a long use for eyeglasses?
+ does tortoise shell have a long use for eyeglasses?
+does tortoise shell have the property of long use for eyeglasses?", tortoise shell is used for eyeglasses.,neg
+41,chicken,CapableOf,fly well,"can chickens fly well?
+ can chickens fly well?
+can chicken fly well?"," chickens have wings.
+ chickens are birds.",neg
+42,insect,Desires,be squash,"do insects want to be squashed?
+ do insects usually want to be squashed?
+does an insect want squash?"," insects are attracted to light.
+ insects are animals.",neg
+43,person,Desires,crack rib,"does a person ever desire to crack their rib?
+ does anyone ever desire to crack their ribs?
+does a person want a crack rib?"," ribs are bones.
+ a person has ribs.",neg
+44,plant,CapableOf,pay tax,"can plants pay taxes?
+ can plants pay taxes?
+can a plant pay tax?"," plants are living organisms.
+ plants are living things.",neg
+45,person,Desires,small shoe,"does a person want a small shoe?
+ does a person usually desire a small shoe?
+does person want small shoe?", most people have two feet.,neg
+46,hanger and hangar,HasProperty,alike,"do hangers and hangars have the same properties?
+ do hanger and hangar have the same properties?
+does hanger and hangar have the same property?"," hangers are for clothes and hangars are for planes.
+ hangers are used to hang clothes.",neg
+47,person,Desires,diarrhea,"does a person desire diarrhea?
+ does a person usually desire diarrhea?
+does a person want diarrhoea?"," diarrhea is the passage of loose, watery stools.
+ diarrhea is a symptom of a disease.",neg
+48,earthrise,CapableOf,be see while on earth,"can earthrise be seen while on earth?
+ can earthrise be seen while on earth?
+can earthrise be seen while on earth?"," earthrise is the name of a photograph of the Earth taken from lunar orbit by astronaut William Anders in 1968.
+ earthrise is a kind of photograph.",neg
+49,person,CapableOf,breathe in water,"can people breathe in water?
+ can people breathe in water?
+can a person breathe in water?"," people need oxygen to breathe.
+ people can breathe in air.",neg
+50,person,Desires,complication,"do people desire complications?
+ do people usually want complications?
+does a person want complication?"," some people like to keep their lives simple.
+ people are a kind of animal.",neg
+51,chicken,HasA,lip,"does a chicken have a lip?
+ do chickens have lips?
+does chicken have lip?"," chickens have beaks.
+ a chicken has a beak.",neg
+52,cat,Desires,throw out of window,"does a cat want to be thrown out of a window?
+ do cats generally desire to throw things out of windows?
+does cat want to be thrown out of window?"," cats hate heights.
+ cats like to be high up.",neg
+53,lover,Desires,be betray,"does a lover want to be betrayed?
+ do lovers usually desire to be betrayed?
+does a lover want to be betrayal?", a lover wants to be loved.,neg
+54,parallel line,CapableOf,cross in flat space,"can parallel lines cross in flat space?
+ can parallel lines cross in flat space?
+can parallel lines cross in flat space?"," parallel lines are lines that never intersect.
+ parallel lines never cross.",neg
+55,person,Desires,frostbite,"does a person desire frostbite?
+ does anyone ever desire frostbite?
+does a person want frostbite?"," frostbite is a type of injury.
+ frostbite is a type of injury.",neg
+56,glove,HasProperty,warm as mitten,"does a glove have the property of being as warm as a mitten?
+ is a glove usually as warm as a mitten?
+does glove have the property of being warm as mitten?"," a glove is a garment that covers the hand and has separate sections for each finger.
+ a glove is a garment worn on the hand.",neg
+57,dead dog,CapableOf,bark,"can a dead dog bark?
+ can a dead dog bark?
+can a dead dog bark?"," a dog is a mammal.
+ dogs are animals.",neg
+58,person,Desires,backache,"do people desire backaches?
+ do people usually desire backaches?
+does a person want backache?"," backaches are a symptom of poor posture.
+ backaches are painful.",neg
+59,stunt-driver,Desires,break car,"does a stunt-driver want to break a car?
+ does a stunt-driver usually want to break the car?
+does stunt-driver want a broken car?"," stunt-drivers are paid to drive recklessly.
+ stunt-driver is a type of driver.",neg
+60,horse,CapableOf,climb tree,"can horses climb trees?
+ can horses climb trees?
+can a horse climb a tree?"," horses are mammals.
+ horses are mammals.",neg
+61,mankind,Desires,nuclear waste,"does mankind desire nuclear waste?
+ does mankind generally desire nuclear waste?
+does mankind want nuclear waste?"," nuclear waste is dangerous.
+ mankind desires nuclear energy.",neg
+62,person,Desires,too much information,"do people want too much information?
+ do people usually want too much information?
+does a person want too much information?", people want information that is easy to find and understand.,neg
+63,person,Desires,be offend,"do people want to be offended?
+ do people usually want to be offended?
+does a person want to offend?"," people are offended by different things.
+ people want to be happy.",neg
+64,american,CapableOf,eat cat,"can americans eat cats?
+ can americans eat cats?
+can americans eat cats?", americans are humans.,neg
+65,dog,CapableOf,speak,"can dogs speak?
+ can dogs speak?
+can a dog speak?"," dogs are animals.
+ dogs are animals.",neg
+66,tortoise,CapableOf,make very good house pet,"can tortoises make very good house pets?
+ can a tortoise make a good house pet?
+can tortoise make a very good house pet?", tortoises are a type of reptile.,neg
+67,you,CapableOf,play online poker at work,"can you play online poker at work?
+ can you play online poker at work?
+can you play online poker at work?"," online poker is illegal in some countries.
+ you can play online poker at home.",neg
+68,person,Desires,be draft into military,"does a person want to be drafted into the military?
+ does anyone ever want to be drafted into the military?
+does person want to be drafted into military?", the military is a branch of the armed forces.,neg
+69,person,Desires,dead end job,"does a person want a dead end job?
+ do people usually desire dead end jobs?
+does person want dead end job?"," a person wants a job that is interesting.
+ a person wants a job.",neg
+70,wicker,HasProperty,sturdy as oak,"is wicker as sturdy as oak?
+ does wicker usually have the property of being as sturdy as oak?
+does wicker have the property of being sturdy as oak?"," wicker is made of rattan.
+ wicker is made from willow.",neg
+71,person,Desires,be ugly,"does every person desire to be ugly?
+ do people usually want to be ugly?
+does a person want to be ugly?"," some people believe that inner beauty is more important than outer beauty.
+ people usually desire to be beautiful.",neg
+72,painter,Desires,drip paint on floor,"does the painter want to drip paint on the floor?
+ do painters generally desire to drip paint on the floor?
+does painter want drip paint on floor?"," the painter is wearing a smock.
+ the painter wants to drip paint on the canvas.",neg
+73,turner,IsA,suicide case,"is Turner a suicide case?
+ is turner a kind of suicide case?
+is turner a type of suicide case?"," turner was a slave who was convicted of assault.
+ turner is a painter.",neg
+74,you,CapableOf,drive screw with toilet plunger,"can you drive a screw with a toilet plunger?
+ can you drive a screw with a toilet plunger?
+can you drive screw with toilet plunger?", toilet plungers are used to unclog toilets.,neg
+75,emu,CapableOf,fly,"can emus fly?
+ can emus fly?
+can emu fly?"," emus are birds.
+ emus are birds.",neg
+76,infrared,HasProperty,visible to human eye,"is infrared visible to the human eye?
+ does infrared generally have the property of being visible to the human eye?
+does infrared have the property of being visible to the human eye?"," infrared is a type of light.
+ infrared is a type of light.",neg
+77,person,Desires,too little money,"do people desire too little money?
+ do people usually desire to have too little money?
+does a person want too little money?", people desire money.,neg
+78,person,Desires,ebola,"does a person desire ebola?
+ does anyone ever desire to have ebola?
+does a person want ebola?"," ebola is a deadly virus.
+ ebola is a disease.",neg
+79,shadow,HasA,color,"does a shadow have a color?
+ does a shadow have a color?
+does shadow have color?"," a shadow is the dark shape that is formed when an object blocks light.
+ shadow is a dark area.",neg
+80,fine toothed comb,CapableOf,work in thick hair,"can a fine toothed comb work in thick hair?
+ can a fine toothed comb work in thick hair?
+can fine toothed comb work in thick hair?", a wide toothed comb is best for thick hair.,neg
+81,sugar,HasProperty,good for person,"does sugar have the property of being good for a person?
+ is sugar generally good for people?
+does sugar have the property of good for a person?", sugar is a type of carbohydrate.,neg
+82,do,CapableOf,get angry at vegetable,"can you get angry at a vegetable?
+ can you get angry at a vegetable?
+can i get angry at vegetable?"," a vegetable is a type of food.
+ vegetable is a kind of food.",neg
+83,you,CapableOf,type wear mitten,"can you type while wearing mittens?
+ can you type while wearing mittens?
+can you type wearing mittens?"," mittens are a type of glove.
+ mittens are a type of glove.",neg
+84,man,Desires,get sick,"does the man want to get sick?
+ does every man desire to get sick?
+does man want to get sick?"," the man is coughing.
+ the man is a doctor.",neg
+85,do,CapableOf,drink from unmarked bottle,"can you drink from an unmarked bottle if you do?
+ can dogs drink from unmarked bottles?
+can i drink from an unmarked bottle?", it is not safe to drink from an unmarked bottle.,neg
+86,plant,Desires,die,"does a plant want to die?
+ do plants generally desire to die?
+does plant want to die?"," plants need water to live.
+ plants need water to live.",neg
+87,person,Desires,become homeless,"does every person desire to become homeless?
+ does every person desire to become homeless?
+does a person want to become homeless?"," some people are homeless.
+ people desire to have a home.",neg
+88,liar,Desires,tell truth,"does a liar want to tell the truth?
+ do liars usually want to tell the truth?
+does a liar want to tell the truth?"," a liar is someone who tells lies.
+ a liar is a person.",neg
+89,person,Desires,be dupe,"does a person want to be a dupe?
+ do people generally desire to be duped?
+does a person want to be dupe?"," a dupe is a person who is easily tricked.
+ a dupe is a person who is tricked.",neg
+90,dog,Desires,starve,"does a dog want to starve?
+ do dogs want to starve?
+does your dog want to starve?"," dogs need food to survive.
+ dogs are omnivores.",neg
+91,cow,CapableOf,make chocolate milk only plain milk,"can cows make chocolate milk only from plain milk?
+ can cows make chocolate milk?
+can cow make chocolate milk only plain milk?"," chocolate milk is made by adding chocolate to milk.
+ cows produce milk.",neg
+92,old person,CapableOf,excersice vigorously,"can old people excersice vigorously?
+ can old people excersice vigorously?
+can an old person exercise vigorously?", old people are people who are over 60 years old.,neg
+93,cat,Desires,worm tablet,"does a cat want a worm tablet?
+ do cats generally desire worm tablets?
+does cat want worm tablet?", a cat is a carnivorous animal.,neg
+94,person,Desires,tofu,"do people desire tofu?
+ do people usually desire tofu?
+does a person want tofu?", some people do not like the taste of tofu.,neg
+95,person,Desires,be broke,"does a person desire to be broke?
+ does every person desire to be broke?
+does a person want to be broke?"," people usually desire to have money.
+ a person desires to be rich.",neg
+96,fish,CapableOf,get marry,"can fish get married?
+ can fish get married?
+can fish get married?"," fish reproduce by laying eggs.
+ fish is a kind of animal.",neg
+97,cockroach,Desires,see light,"does a cockroach want to see light?
+ do cockroaches generally want to see light?
+does cockroach want to see light?"," cockroaches are nocturnal.
+ cockroach is afraid of light.",neg
+98,writer,Desires,writer block,"do writers desire writer's block?
+ do writers usually desire writer's block?
+does writer want writer block?"," writers are people.
+ writers are people.",neg
+99,pilot,Desires,crash and burn,"does the pilot want to crash and burn?
+ do pilots generally desire to crash and burn?
+does pilot want crash and burn?"," the pilot is flying the plane.
+ pilot wants to fly.",neg
+100,stripe,CapableOf,look good on couch,"can stripes look good on a couch?
+ can stripes look good on a couch?
+can stripe look good on couch?", stripes are a pattern of lines.,neg
+101,public speaker,Desires,hack cough,"does a public speaker want to hack cough?
+ do public speakers usually desire to hack cough?
+does public speaker want hack cough?", a public speaker wants to avoid coughing.,neg
+102,mass and weight,HasProperty,same,"do mass and weight have the same property?
+ is mass and weight always the same?
+does mass and weight have the same property?"," weight is a measure of the force of gravity on an object.
+ mass and weight are both measured in kilograms.",neg
+103,jewelry usually,HasProperty,edible,"is jewelry usually edible?
+ is jewelry usually edible?
+does jewelry usually have the property of edible?"," some people have allergies to metals.
+ jewelry is made of gold.",neg
+104,person,Desires,be run down,"does a person ever desire to be run down?
+ do people generally desire to be run down?
+does a person want to be run down?"," a person may desire to be hit by a car.
+ people desire to be protected.",neg
+105,person,Desires,sleep outside in cold,"does a person desire to sleep outside in the cold?
+ do people usually desire to sleep outside in the cold?
+does a person want to sleep outside in cold weather?"," a person's body temperature is regulated by the hypothalamus.
+ a person desires to sleep in a warm place.",neg
+106,human,CapableOf,breathe under water,"can humans breathe under water?
+ can humans breathe under water?
+can humans breathe under water?"," humans cannot breathe under water.
+ humans are mammals.",neg
+107,child,Desires,go to school,"do children want to go to school?
+ do most children desire to go to school?
+does a child want to go to school?"," children are required to go to school in some states.
+ children want to play.",neg
+108,metal,HasProperty,long require for furniture,"does metal require a long time to make furniture?
+ does metal usually require a long time to make furniture?
+does metal have the property of long-required for furniture?", metal is a durable material.,neg
+109,turtle,IsA,machine,"is a turtle a machine?
+ is a turtle a machine?
+is turtle a type of machine?"," turtles are reptiles.
+ a turtle is an animal.",neg
+110,animal,Desires,suffer,"do animals desire to suffer?
+ do animals generally desire to suffer?
+does an animal want to suffer?"," some animals are capable of experiencing pain.
+ animals are living things.",neg
+111,vacuum,HasProperty,good for skin,"is a vacuum good for your skin?
+ do vacuums have the property of being good for skin?
+does vacuum have the property of good for skin?", a vacuum sucks up dirt.,neg
+112,baby bird,CapableOf,fly,"can baby birds fly?
+ can baby birds fly?
+can a baby bird fly?"," baby birds are called chicks.
+ baby birds are called chicks.",neg
+113,person,Desires,unreliable car,"does a person want an unreliable car?
+ do people usually desire unreliable cars?
+does person want unreliable car?"," people want cars that are dependable.
+ a person wants a reliable car.",neg
+114,do,CapableOf,swim for hour after eat,"can you swim for an hour after you eat?
+ can do swim for an hour after eating?
+can i swim for hours after eat?", swimming is a form of exercise.,neg
+115,slesman,Desires,lose sale,"does a salesman want to lose a sale?
+ does Slesman want to lose the sale?
+does slesman want to lose sale?"," a salesman wants to make a sale.
+ a salesman is a person.",neg
+116,plastic chair,CapableOf,mildew,"can plastic chairs mildew?
+ can plastic chairs get mildew?
+can plastic chair mildew?", plastic is a material.,neg
+117,person,Desires,low self-esteem,"do people with low self-esteem desire anything?
+ do people usually want to have low self-esteem?
+does a person want low self-esteem?", self-esteem is the opinion of oneself.,neg
+118,employee,Desires,be fire,"does an employee want to be fired?
+ do employees usually want to be fired?
+does an employee want to be fired?"," an employee is a person who works for another person or organization.
+ an employee is a person.",neg
+119,glass be solid so water,CapableOf,fall out,"can water fall out of a glass if it is solid?
+ can water fall out of glass if it is solid?
+can glass be solid so water falls out?"," water is a liquid.
+ water is a liquid.",neg
+120,cat,Desires,be run over by car,"does a cat want to be run over by a car?
+ do cats usually want to be run over by cars?
+does cat want to be run over by car?"," cats are afraid of cars.
+ cats are afraid of cars.",neg
+121,security guard,Desires,robbery,"does a security guard want a robbery to happen?
+ do security guards usually desire robberies?
+does security guard want robbery?"," security guards are responsible for protecting people and property.
+ security guard is there to prevent robbery.",neg
+122,you,CapableOf,stop time,"can you stop time?
+ can you stop time?
+can you stop time?"," time is a measure of the duration of events.
+ time is a measurement of change.",neg
+123,lazy person,Desires,work,"does a lazy person want to work?
+ do lazy people usually desire work?
+does lazy person want work?"," a lazy person is someone who does not want to work.
+ a lazy person is someone who does not want to work.",neg
+124,typewriter key,CapableOf,taste good,"can typewriter keys taste good?
+ can a typewriter key taste good?
+can typewriter keys taste good?"," some people put typewriter keys in their mouths.
+ typewriter keys are made of metal.",neg
+125,person,Desires,gerbil,"does a person want a gerbil?
+ do people usually desire gerbils?
+does a person want a gerbil?", gerbils are rodents.,neg
+126,person,Desires,be idiot,"does a person want to be an idiot?
+ does every person desire to be an idiot?
+does a person want to be an idiot?"," idiots are people who are not smart.
+ a person is a human.",neg
+127,person,Desires,dirt,"does a person desire dirt?
+ do people usually desire dirt?
+does a person want dirt?"," dirt is a type of soil.
+ dirt is a type of soil.",neg
+128,woman,Desires,grow old,"do women desire to grow old?
+ do women generally want to grow old?
+does woman want to grow old?"," some women feel pressured to maintain a youthful appearance.
+ women desire to be beautiful.",neg
+129,person,Desires,forget important date,"does a person who forgets an important date desire to forget it?
+ do people usually desire to forget important dates?
+does a person want to forget important dates?", forgetting can be a normal and adaptive process.,neg
+130,general,Desires,lose war,"does the general want to lose the war?
+ does a general usually desire to lose a war?
+does general want to lose war?", the general is the leader of the army.,neg
+131,person,Desires,dirty cat,"does a person want a dirty cat?
+ does a person generally desire a dirty cat?
+does a person want a dirty cat?"," a person wants a clean cat.
+ a person wants a clean cat.",neg
+132,cancer cell,Desires,kill you,"do cancer cells desire to kill you?
+ do cancer cells desire to kill you?
+does cancer cells want to kill you?"," cancer cells are abnormal cells that divide without control or order.
+ cancer cells are a kind of cells.",neg
+133,easter bunny,HasProperty,real,"does the Easter Bunny have the property of being real?
+ is the Easter Bunny real?
+does easter bunny have the real property?"," the easter bunny is a fictional character.
+ the easter bunny is a fictional character.",neg
+134,mexican,CapableOf,afford television,"can mexicans afford televisions?
+ can most mexicans afford a television?
+can mexican afford television?"," the poverty rate in Mexico was 18.8% in 2018.
+ mexicans are poor.",neg
+135,couch,IsA,bed,"is a couch a bed?
+ is a couch a kind of bed?
+is a couch a type of bed?"," a couch is a piece of furniture for seating.
+ couch is a piece of furniture for seating from two to four people.",neg
+136,time,CapableOf,last forever,"can time last forever?
+ can time last forever?
+can time last forever?", time is a measurement of duration.,neg
+137,tortoise shell glass,MadeOf,tortoise shell,"is tortoise shell glass made of tortoise shell?
+ is tortoise shell glass usually made of tortoise shell?
+is tortoise shell glass made of tortoise shell?"," tortoise shell is a material.
+ tortoise shell is a type of glass.",neg
+138,animal,Desires,starve,"do animals desire to starve?
+ do animals desire to starve?
+does an animal want to starve?"," animals will eat when they are hungry.
+ animals need food to survive.",neg
+139,life,Desires,end,"does life want to end?
+ does life generally desire to end?
+does life want to end?"," life is a cycle.
+ life is a struggle.",neg
+140,white person,Desires,listen to rap music,"do white people want to listen to rap music?
+ do white people generally desire to listen to rap music?
+does white people want to listen to rap music?", white people are not interested in rap music.,neg
+141,person,Desires,be punch,"does a person want to be punched?
+ does a person usually desire to be punched?
+does a person want a punch?"," punching is a violent act.
+ a person wants to be loved.",neg
+142,person,Desires,cat scratch,"do people want to get scratched by cats?
+ do people usually desire cat scratches?
+does a person want a cat scratch?"," cats have claws.
+ cats scratch people.",neg
+143,person,CapableOf,live on ocean,"can people live on the ocean?
+ can people live on the ocean?
+can a person live on the ocean?"," people cannot breathe under water.
+ people live on land.",neg
+144,age,IsA,exclusive factor in golf competition,"is age the only factor in golf competitions?
+ is age always a factor in golf competitions?
+is age a type of exclusive factor in golf competition?"," the average age of PGA Tour Champions golfers is 58.
+ golf is a sport.",neg
+145,person,Desires,paper cut,"does a person want a paper cut?
+ does anyone ever desire a paper cut?
+does a person want paper cut?"," paper cuts are small wounds caused by paper.
+ a paper cut is a small cut or tear to the skin.",neg
+146,hat,CapableOf,make you fly,"can a hat make you fly?
+ can a hat make you fly?
+can hat make you fly?"," hats are often made of cloth.
+ a hat is a type of clothing.",neg
+147,fire,IsA,metal,"is fire a kind of metal?
+ is fire a kind of metal?
+is fire a type of metal?"," fire is a type of combustion.
+ fire is a kind of heat.",neg
+148,person,Desires,incompetent doctor,"does a person want an incompetent doctor?
+ do most people desire to have an incompetent doctor?
+does person want incompetent doctor?"," patients want doctors who are competent.
+ a person wants a competent doctor.",neg
+149,person,Desires,anxiety,"do people desire anxiety?
+ do people usually desire anxiety?
+does a person want anxiety?"," some people may enjoy the feeling of anxiety.
+ people usually desire to be happy.",neg
+150,propeller beanie,CapableOf,fly,"can a propeller beanie fly?
+ can a propeller beanie fly?
+can propeller beanie fly?"," a propeller beanie is a type of hat.
+ propeller beanies are worn on the head.",neg
+151,person,Desires,enemy,"does a person want their enemy?
+ do people usually desire their enemies?
+does a person want an enemy?"," a person's enemy is someone who they feel hostility towards.
+ a person wants their friend.",neg
+152,priest,Desires,sacrilege,"does a priest want sacrilege?
+ do priests usually desire sacrilege?
+does priest want sacrilege?"," a priest is a religious leader.
+ a priest wants to be holy.",neg
+153,person,Desires,be too heavy,"does a person want to be too heavy?
+ do people usually desire to be too heavy?
+does a person want to be too heavy?"," obesity can lead to health problems.
+ people want to be healthy.",neg
+154,person,Desires,be store,"does a person want to be a store?
+ do people usually want to be a store?
+does a person want to be a store?"," a person can own a store.
+ a person wants to be a store.",neg
+155,bird,CapableOf,live in house,"can birds live in houses?
+ can most birds live in houses?
+can a bird live in the house?", birds live in trees.,neg
+156,you,CapableOf,see through person,"can you see through people?
+ can you see through people?
+can you see through a person?"," people are solid objects.
+ people are made of flesh.",neg
+157,person,Desires,damp house,"does a person want a damp house?
+ do people usually desire a damp house?
+does a person want a damp house?"," most people prefer a dry house.
+ a person wants a dry house.",neg
+158,do,CapableOf,skate on thin ice,"can you skate on thin ice?
+ can you do skate on thin ice?
+can i skate on thin ice?", thin ice is a type of ice that is not thick enough to support a person's weight.,neg
+159,person or animal,Desires,be use in inappropriate way,"do people or animals desire to be used in an inappropriate way?
+ do people or animals ever desire to be used in an inappropriate way?
+does a person or animal want to be used in an inappropriate way?"," sexual desire is the feeling of wanting to engage in sexual activity.
+ desire is a feeling of wanting to have something or wishing for something to happen.",neg
+160,teacher,Desires,discourage student,"does a teacher want to discourage their students?
+ do teachers generally want to discourage students?
+does teacher want to discourage student?"," a teacher's job is to educate their students.
+ a teacher wants to encourage their students.",neg
+161,view through microscope,HasProperty,pleasant,"is what you see through a microscope pleasant?
+ is what you see through a microscope usually pleasant?
+does a view through a microscope have the property of pleasant?"," microscopes allow you to see things up close.
+ microscope is an instrument used to see objects that are too small to be seen by the naked eye.",neg
+162,family,CapableOf,survive pixellation process,"can families survive the pixellation process?
+ can families survive the pixellation process?
+can family survive the pixelation process?", the pixellation process is a method of image compression.,neg
+163,do,CapableOf,trust message find in fortune cookie,"can you trust the message you find in a fortune cookie?
+ can you trust a message you find in a fortune cookie?
+can trust message find in fortune cookie?"," the message in a fortune cookie is usually vague.
+ fortune cookies are a type of cookie.",neg
+164,person,Desires,go insane,"does every person desire to go insane?
+ do people usually desire to go insane?
+does a person want to go insane?"," some people may be more prone to mental illness.
+ people are human beings.",neg
+165,person,Desires,disability,"does a person want to have a disability?
+ do people usually desire disability?
+does a person have a disability?"," some people with disabilities do not want to be cured.
+ a person wants to be healthy.",neg
+166,pet,Desires,be abandon,"does a pet want to be abandoned?
+ do pets usually desire to be abandoned?
+does your pet want to be abandoned?"," pets provide companionship.
+ pets are animals.",neg
+167,person,Desires,be in prison,"does a person desire to be in prison?
+ do people generally desire to be in prison?
+does a person want to be in prison?"," a person's desire to be in prison is called masochism.
+ a person desires to be free.",neg
+168,tv drama,Desires,be too predictable,"do tv dramas desire to be too predictable?
+ do tv dramas usually desire to be too predictable?
+does tv drama want to be too predictable?"," tv dramas are often predictable.
+ tv dramas are usually predictable.",neg
+169,person,Desires,get annoy phone call,"does a person ever desire to get an annoying phone call?
+ do people usually want to get phone calls that annoy them?
+does a person want to get an annoying phone call?", people don't like annoying phone calls.,neg
+170,joe,CapableOf,spell word speech,"can joe spell words with his speech?
+ can Joe spell words with his speech?
+can joe spell word speech?", joe is a person.,neg
+171,person,Desires,be hospitalize,"does a person desire to be hospitalized?
+ do people usually desire to be hospitalized?
+does a person want to be hospitalized?"," a hospital is a place where people receive medical care.
+ a hospital is a place where people are treated for injuries and illnesses.",neg
+172,person,Desires,have tax audit,"does anyone desire to have a tax audit?
+ does anyone ever desire to have a tax audit?
+does a person want to have a tax audit?"," the IRS conducts tax audits.
+ tax audit is a type of audit.",neg
+173,person,Desires,have gangreen,"does a person desire to have gangreen?
+ does a person usually desire to have gangrene?
+does a person want to have gangreen?"," gangreen is a serious and potentially life-threatening infection.
+ gangreen is a disease.",neg
+174,tie,HasProperty,wear with casual clothe,"is it okay to wear a tie with casual clothes?
+ can you wear a tie with casual clothes?
+does a tie have the property of being worn with casual clothing?"," ties are typically worn with formal clothing.
+ ties are formal.",neg
+175,bacterial cell,HasA,nucleus,"does a bacterial cell have a nucleus?
+ does a bacterial cell have a nucleus?
+does a bacterial cell have a nucleus?"," Eukaryotic cells have a nucleus.
+ eukaryotic cells have a nucleus.",neg
+176,zebra,CapableOf,hunt lion,"can zebras hunt lions?
+ can zebras hunt lions?
+can zebra hunt lion?"," zebras are prey animals.
+ zebras are herbivores.",neg
+177,eraser,CapableOf,breath,"can erasers breathe?
+ can erasers breath?
+can i erase my breath?"," erasers are made of rubber.
+ eraser is a type of stationery.",neg
+178,person,Desires,urine,"does a person desire urine?
+ do people usually desire urine?
+does a person want urine?"," urine is a waste product of the body.
+ urine is a liquid waste product of the body.",neg
+179,home-owner,Desires,white ant,"does a home-owner desire white ants?
+ does a home-owner generally want white ants?
+does home-owner want white ant?"," white ants are termites.
+ white ants are termites.",neg
+180,animal,Desires,handicap,"do animals desire handicaps?
+ do animals usually desire handicaps?
+does an animal have a handicap?"," animals do not desire anything.
+ animals desire food.",neg
+181,newborn,CapableOf,talk,"can newborns talk?
+ can newborns talk?
+can a newborn talk?"," newborns cry to communicate.
+ newborns are babies.",neg
+182,animal,HasProperty,smart as human,"are animals as smart as humans?
+ are animals usually as smart as humans?
+does an animal have the property of being smarter than a human?"," animals have different levels of intelligence.
+ animals are not as smart as humans.",neg
+183,mercury,IsA,small planet,"is mercury a small planet?
+ is mercury a small planet?
+is mercury a type of small planet?", mercury is the smallest planet.,neg
+184,woman,Desires,get heartbroken,"do women want to get their hearts broken?
+ do women usually want to get their hearts broken?
+does woman want to get heartbroken?"," heartbreak is a feeling.
+ women are a kind of human.",neg
+185,flower,CapableOf,melt,"can flowers melt?
+ can flowers melt?
+can a flower melt?"," flowers are made of cellulose and water.
+ flowers are made of plant cells.",neg
+186,human,CapableOf,drink skunk milk,"can humans drink skunk milk?
+ can humans drink skunk milk?
+can humans drink skunk milk?"," skunks are mammals.
+ humans are mammals.",neg
+187,person,Desires,turmoil,"do people desire turmoil?
+ do people usually desire turmoil?
+does a person want turmoil?", people desire peace.,neg
+188,plastic,IsA,naturally occur substance,"is plastic a naturally occurring substance?
+ is plastic a naturally occurring substance?
+is plastic a type of naturally occurring substance?"," plastic is a synthetic polymer.
+ plastic is a synthetic material.",neg
+189,person,Desires,be impotent,"does a person want to be impotent?
+ does any person ever desire to be impotent?
+does a person want to be impotent?"," impotent means unable to have an erection.
+ impotent means unable to have children.",neg
+190,hit bullseye,HasProperty,easy,"is hitting the bullseye easy?
+ is hitting a bullseye usually easy?
+does hitting bullseye have the property of easy?"," the bullseye is the center of the target.
+ hitting the bullseye is hard.",neg
+191,person,Desires,clog toilet,"does a person want to clog a toilet?
+ do people usually desire to clog toilets?
+does person want to clog toilet?"," people use toilets for waste.
+ a person wants to use the toilet.",neg
+192,earth,HasProperty,make out of cheese,"does the earth have the property of being made out of cheese?
+ does earth generally make out of cheese?
+does earth have the property of making cheese?"," the moon is made out of cheese.
+ the earth is made out of rock.",neg
+193,hat,CapableOf,fly,"can hats fly?
+ can hats fly?
+can hat fly?"," hats are worn on the head.
+ hats are worn on the head.",neg
+194,person,Desires,be meaningless,"does a person want their life to be meaningless?
+ do people usually desire to be meaningless?
+does a person want to be meaningless?"," some people believe that life is meaningless.
+ people want their life to be meaningful.",neg
+195,bug,Desires,be step on,"does a bug want to be stepped on?
+ do bugs usually want to be stepped on?
+does bug want to be stepped on?"," most bugs are harmless to humans.
+ bugs are small animals.",neg
+196,person,Desires,be manipulate,"do people want to be manipulated?
+ do people usually want to be manipulated?
+does a person want to be manipulated?"," people want to be in control.
+ people want to be treated with respect.",neg
+197,baby,HasA,lot of hair,"does a baby have a lot of hair?
+ do babies usually have a lot of hair?
+does baby have a lot of hair?"," babies are born bald.
+ babies are born without hair.",neg
+198,parent,Desires,irresponsible child,"do parents want an irresponsible child?
+ do parents usually want an irresponsible child?
+does a parent want an irresponsible child?"," parents want their child to be successful.
+ a parent is a person who begets or brings forth offspring.",neg
+199,computer,HasA,brain,"does a computer have a brain?
+ does a computer have a brain?
+does a computer have a brain?", a computer has a processor.,neg
+200,person,Desires,be beat,"does a person want to be beat?
+ does a person usually want to be beaten?
+does a person want to be beat?"," a person wants to be happy.
+ a person wants to be loved.",neg
+201,clean crew,Desires,unremovable stain,"does the clean crew want an unremovable stain?
+ does the clean crew want to remove stains?
+does clean crew want unremovable stain?"," the clean crew is responsible for cleaning the floor.
+ the clean crew wants to remove stains.",neg
+202,sound,CapableOf,travel in space,"can sound travel in space?
+ can sound travel in space?
+can sound travel in space?", sound is a vibration.,neg
+203,person,Desires,break wrist,"does a person ever desire to break their wrist?
+ does a person usually desire to break their wrist?
+does person want to break wrist?", a person's bones are strong.,neg
+204,person,Desires,be timid,"does a person want to be timid?
+ do people usually desire to be timid?
+does a person want to be timid?"," a person wants to be brave.
+ a person wants to be brave.",neg
+205,you,Desires,be catch in tornado,"do you want to be caught in a tornado?
+ do you usually want to be caught in a tornado?
+do you want to be caught in a tornado?"," tornadoes are a type of severe weather.
+ tornadoes are a type of storm.",neg
+206,person,Desires,blister,"does a person want a blister?
+ do people usually desire blisters?
+does a person want a blister?"," a blister is a small, fluid-filled sac that forms on the skin.
+ a blister is a bubble on the skin.",neg
+207,giraffe horn,HasA,horny cover,"does a giraffe horn have a horny cover?
+ does a giraffe horn have a horny cover?
+does giraffe horn have horny cover?", the horns of a giraffe are made of hair.,neg
+208,freeway,HasProperty,free,"is the freeway free?
+ is a freeway typically free?
+does freeway have the property of free?"," there is a fee to use the freeway.
+ the freeway is a road.",neg
+209,do,CapableOf,eat stem on apple,"can you eat the stem on an apple?
+ can you eat the stem on an apple?
+can i eat stem on apple?"," the stem is the part of the apple that connects it to the tree.
+ stems are used for growing.",neg
+210,student,Desires,be reject,"does a student want to be rejected?
+ does a student usually desire to be rejected?
+does student want to be rejected?", students want to be accepted.,neg
+211,floppy disk,HasProperty,powerful as cd-rom,"is a floppy disk as powerful as a cd-rom?
+ is a floppy disk as powerful as a cd-rom?
+does floppy disk have the same properties as cd-rom?"," a floppy disk is a storage device that is composed of a disk of thin, flexible magnetic storage medium.
+ a floppy disk is a magnetic storage medium.",neg
+212,flower,HasA,bird wing,"does a flower have a bird wing?
+ does a flower typically have a bird wing?
+does flower have bird wing?"," flowers have petals.
+ flowers have petals.",neg
+213,camper,Desires,wet match,"does a camper desire a wet match?
+ does a camper generally desire a wet match?
+does camper want wet match?","
+ a camper is a person who camps.",neg
+214,empty picture frame,HasA,picture,"does an empty picture frame have a picture?
+ does an empty picture frame usually have a picture?
+does empty picture frame have picture?"," an empty picture frame is a frame without a picture.
+ a picture frame is a rectangular border or case for enclosing a picture.",neg
+215,person,Desires,have ear-ache,"does a person with an earache desire to have one?
+ do people usually want to have ear-ache?
+does a person want to have earaches?"," an earache is a pain in the ear.
+ an earache is a pain in the ear.",neg
+216,person,Desires,be leave behind,"does a person want to be left behind?
+ do people generally desire to be left behind?
+does a person want to be left behind?"," being left behind can cause feelings of anxiety.
+ a person wants to be loved.",neg
+217,person,Desires,thing to be complex,"do people want things to be complex?
+ do people generally want things to be complex?
+does a person want things to be complex?"," people want things to be simple.
+ people want things to be simple.",neg
+218,person,Desires,be hungrey,"do people desire to be hungrey?
+ do people usually desire to be hungrey?
+does a person want to be hungover?"," people need to eat to survive.
+ people desire to be full.",neg
+219,cat,Desires,dog in house,"does the cat want the dog in the house?
+ do cats usually want there to be a dog in the house?
+does cat want dog in house?", the cat wants to be the only pet in the house.,neg
+220,city,Desires,sprawl,"does a city want to sprawl?
+ does a city usually want to sprawl?
+does a city want sprawl?", a city wants to grow.,neg
+221,skeleton key,CapableOf,look like skeleton,"does a skeleton key look like a skeleton?
+ can a skeleton key look like a skeleton?
+can skeleton key look like skeleton?"," a skeleton key is a master key.
+ skeleton key is used for opening locks.",neg
+222,person,Desires,be mug,"does a person want to be a mug?
+ does every person desire to be a mug?
+does a person want to be mug?"," a mug is a type of container.
+ a mug is a cup.",neg
+223,person,Desires,sufer,"does a person desire to suffer?
+ do people generally desire to suffer?
+does a person want to suffer?", a person desires to be happy.,neg
+224,person,Desires,hear loud noise,"does a person want to hear a loud noise?
+ do people generally desire to hear loud noises?
+does person want to hear loud noise?", a person's hearing can be damaged by loud noise.,neg
+225,do,CapableOf,use magnet around floppy disk,"can you use a magnet around a floppy disk?
+ can you use a magnet around a floppy disk?
+can you use magnet around floppy disk?"," a floppy disk is a storage device that uses a disk of thin, flexible magnetic material.
+ a floppy disk is a magnetic storage medium.",neg
+226,person,Desires,sore,"does a person desire to be sore?
+ do people usually desire to be sore?
+does a person want to be sore?"," a person desires to be happy.
+ a person is a human.",neg
+227,dog,HasA,opposable thumb,"do dogs have opposable thumbs?
+ do dogs have opposable thumbs?
+does a dog have an opposable thumb?"," primates are the only mammals with opposable thumbs.
+ opposable thumbs are a characteristic of primates.",neg
+228,person,Desires,moldy cheese,"does anyone want moldy cheese?
+ does most people desire moldy cheese?
+does a person want moldy cheese?"," moldy cheese is full of bacteria.
+ moldy cheese is disgusting.",neg
+229,animal,Desires,be confine,"do animals desire to be confined?
+ do animals usually want to be confined?
+does an animal want to be confined?"," animals in the wild roam free.
+ animals want to be free.",neg
+230,person with asthma,CapableOf,blow breath,"can a person with asthma blow their breath?
+ can people with asthma blow their breath?
+can a person with asthma blow breath?", people with asthma have trouble breathing.,neg
+231,person,Desires,have limb amputate,"does anyone ever want to have a limb amputated?
+ do people usually desire to have limb amputations?
+does person want to have limb amputated?", people want to keep their limbs.,neg
+232,floor sweeper,Desires,new carpet,"does a floor sweeper want a new carpet?
+ does a floor sweeper generally desire a new carpet?
+does floor sweeper want new carpet?"," a floor sweeper is a machine that cleans floors.
+ a floor sweeper is a kind of machine.",neg
+233,person,Desires,ache back,"do people desire to have an ache back?
+ do people usually desire to have an ache back?
+does a person want ache back?"," people will have an ache back if they stand for too long.
+ people will be tired after work.",neg
+234,if ugly,CapableOf,reproduce,"can ugly people reproduce?
+ if something is ugly, can it reproduce?
+can ugly reproduce?", ugly people are people.,neg
+235,person,Desires,be strangle,"does a person ever desire to be strangled?
+ does any person ever desire to be strangled?
+does a person want to be strangled?", a person is a human being.,neg
+236,person,Desires,get paper cut,"does anyone ever want to get a paper cut?
+ does anyone ever desire to get a paper cut?
+does a person want to get paper cut?"," paper cuts are painful.
+ paper cuts are painful.",neg
+237,person,Desires,suffer,"do people desire to suffer?
+ do people usually desire to suffer?
+does a person want to suffer?", people desire to be happy.,neg
+238,person,Desires,chap lip,"does a person desire chap lip?
+ do people usually desire chap lip?
+does someone want a chap lip?", chap lip is a type of lip balm.,neg
+239,old map,HasProperty,accurate as modern map,"are old maps as accurate as modern maps?
+ do old maps have the property of being as accurate as modern maps?
+does old map have the property of being accurate as modern map?"," old maps were made without GPS.
+ old maps are less accurate than modern maps.",neg
+240,person,Desires,starve to death,"does every person desire to starve to death?
+ does every person desire to starve to death?
+does a person want to starve to death?"," some people have eating disorders.
+ people need food to survive.",neg
+241,pilot,Desires,crash,"does the pilot want to crash?
+ do pilots usually want to crash?
+does pilot want crash?"," the pilot is flying the plane.
+ the pilot is a human.",neg
+242,wooden spoon,CapableOf,scratch pan,"can a wooden spoon scratch a pan?
+ can a wooden spoon scratch a pan?
+can wooden spoon scratch pan?", some wooden spoons are coated with a layer of nylon or another polymer to prevent them from scratching cookware.,neg
+243,schook play,HasProperty,very good,"is school play very good?
+ is school play usually very good?
+does schook play have the property of very good?"," school is used for learning.
+ school is a place for learning.",neg
+244,man,CapableOf,fly,"can men fly?
+ can most men fly?
+can man fly?"," birds can fly.
+ men can walk.",neg
+245,person,Desires,dandruff,"does a person desire to have dandruff?
+ does anyone ever desire to have dandruff?
+does a person want dandruff?"," dandruff is a condition of the scalp that causes flakes of skin to appear.
+ dandruff is a condition of the scalp that causes flakes of skin to appear.",neg
+246,person,Desires,flood,"does a person desire a flood?
+ do people usually desire floods?
+does a person want to flood?"," a flood is a natural disaster.
+ a person is a type of human.",neg
+247,person,Desires,gall stone,"does a person want a gall stone?
+ does a person usually want a gall stone?
+does a person want a gallstone?"," gall stones are painful.
+ gall stones are painful.",neg
+248,lip read,IsA,efficient mode of communication,"is lip reading an efficient mode of communication?
+ is lip reading an efficient mode of communication?
+is lip reading a type of efficient mode of communication?"," lip reading is the interpretation of visual information from the lips.
+ lip reading is a form of communication.",neg
+249,fish,HasA,lung,"do fish have lungs?
+ do fish have lungs?
+does fish have lung?"," fish breathe through their gills.
+ fish breathe with gills.",neg
+250,big dog,CapableOf,belong in small car,"can a big dog fit in a small car?
+ can a big dog usually fit in a small car?
+can big dog belong in small car?", a big dog is bigger than a small car.,neg
+251,person,Desires,tear ligament,"does a person ever desire to tear their ligament?
+ do people usually desire to tear their ligaments?
+does person want to tear ligament?"," ligaments are connective tissues that attach bones to other bones.
+ ligaments connect bones.",neg
+252,map,IsA,picture of world,"is a map a picture of the world?
+ is a map a picture of the world?
+is map a type of picture of world?"," a map is a representation of an area.
+ a map is a picture of a place.",pos
+253,kitchen,HasProperty,open to live room,"does the kitchen have the property of being open to the living room?
+ does the kitchen usually have the property of being open to the living room?
+does the kitchen have the property of an open living room?"," most kitchens are open to the living room.
+ the kitchen is open to the living room.",pos
+254,homemade food,HasProperty,good than store-bought,"is homemade food better than store-bought?
+ is homemade food usually better than store-bought food?
+does homemade food have the property of being better than store-bought?"," homemade food is usually cheaper than store-bought.
+ homemade food is made at home.",pos
+255,pathway,CapableOf,guide walker,"can pathways guide walkers?
+ can pathways guide walkers?
+can pathway guide walker?"," pathways are made of concrete.
+ pathways are used for walking.",pos
+256,clothe become outdated,CapableOf,quickly,"do clothes become outdated quickly?
+ do clothes generally become outdated quickly?
+can cloth become outdated quickly?"," fashion is a popular style or practice.
+ clothes are articles of clothing.",pos
+257,chalk,HasProperty,white,"does chalk have the property of being white?
+ is chalk usually white?
+does chalk have the property of white?"," chalk is a type of calcium carbonate.
+ chalk is a soft, white, porous sedimentary carbonate rock.",pos
+258,stool,IsA,3-legged chair,"is a stool a 3-legged chair?
+ is a stool a 3-legged chair?
+is a stool a type of 3-legged chair?"," a stool is a seat without a back or arms.
+ a stool is a seat without a back or arms.",pos
+259,bono,IsA,freak,"is Bono a freak?
+ is Bono a freak?
+is bono a type of freak?", bono is a singer.,pos
+260,ink,IsA,liquid,"is ink a kind of liquid?
+ is ink a liquid?
+is ink a liquid?"," ink is a liquid or a paste.
+ ink is a liquid.",pos
+261,present,IsA,often,"is present often?
+ is present a type of often?
+is present a type of often?", present is a gift.,pos
+262,horse,HasProperty,nice,"do horses have the property of being nice?
+ do horses have the property of being nice?
+does horse have the property of nice?", horses are animals.,pos
+263,water,CapableOf,make reflection,"can water make a reflection?
+ can water make a reflection?
+can water make reflections?"," water is a liquid.
+ water is a liquid.",pos
+264,christian,Desires,convert person to christianity,"does a christian want to convert someone to Christianity?
+ do christians generally want to convert people to Christianity?
+does christian want convert person to christianity?"," christians are taught to spread their faith.
+ a christian is a person who believes in christianity.",pos
+265,unite state congress,HasProperty,bicameral,"does the United States Congress have the property of being bicameral?
+ does the unite state congress have the property of being bicameral?
+does unite state congress have the property of bicameral?"," the united states congress is the legislative branch of the federal government of the United States.
+ the united states congress is bicameral.",pos
+266,house,MadeOf,soil,"is a house made of soil?
+ is a house typically made of soil?
+is a house made of soil?", house is a type of building.,pos
+267,cheese,CapableOf,age to get good,"can cheese age to get better?
+ can cheese age to get good?
+can cheese age to get good?"," cheese is a dairy product.
+ cheese is a food.",pos
+268,judaism,IsA,religion,"is judaism a religion?
+ is Judaism a religion?
+is judaism a type of religion?"," judaism is the oldest monotheistic religion.
+ judaism is a monotheistic religion.",pos
+269,human,CapableOf,get too hot,"can humans get too hot?
+ are humans usually capable of getting too hot?
+can humans get too hot?"," humans can get too hot and suffer from heat exhaustion or heat stroke.
+ humans are mammals.",pos
+270,you,CapableOf,take picture of beautiful scenery,"can you take pictures of beautiful scenery?
+ can you usually take pictures of beautiful scenery?
+can you take pictures of beautiful scenery?"," a camera is needed to take pictures.
+ beautiful scenery is beautiful.",pos
+271,subway platform,IsA,part of subway station,"is a subway platform a part of a subway station?
+ is a subway platform always a part of a subway station?
+is subway platform a type of subway station?"," a subway platform is where a subway train stops.
+ a subway platform is a part of a subway station.",pos
+272,guard,CapableOf,guard prisoner,"can guards guard prisoners?
+ can a guard guard a prisoner?
+can a guard guard a prisoner?"," guards are responsible for the safety and security of people.
+ guards can guard a building.",pos
+273,person,HasProperty,protective of cute thing,"do people have the property of being protective of cute things?
+ do people generally have the property of being protective of cute things?
+does person have the property of protective of cute thing?"," people tend to want to help those who they deem as weaker than themselves.
+ people are protective of their children.",pos
+274,tool for cut,CapableOf,hurt person,"can a tool for cutting hurt a person?
+ can a tool for cutting generally hurt a person?
+can tool cut hurt person?"," tools are designed to cut through materials.
+ a tool for cutting is a kind of tool.",pos
+275,person,Desires,have great sex,"do people desire to have great sex?
+ do most people desire to have great sex?
+does a person want to have great sex?"," sex is a human need.
+ people desire to have great sex.",pos
+276,meditation,HasProperty,fun,"does meditation have the property of being fun?
+ is meditation usually fun?
+does meditation have the property of fun?", meditation is a practice.,pos
+277,wood,IsA,great place for kid to explore,"is wood a great place for kids to explore?
+ is wood a great place for kids to explore?
+is wood a great place for kids to explore?", wood is a great place for kids to explore.,pos
+278,america,HasA,beach,"does America have a beach?
+ does America have a beach?
+does america have beaches?"," America has a coastline.
+ america has a desert.",pos
+279,capitol dome,MadeOf,iron,"is the capitol dome made of iron?
+ is the capitol dome made of iron?
+is the capitol dome made of iron?", the capitol dome is made of cast iron.,pos
+280,person,CapableOf,plan,"can people plan?
+ can people plan?
+can a person plan?"," people can use a planner.
+ people can think.",pos
+281,train,CapableOf,take you place,"can trains take you places?
+ can trains take you to a place?
+can train take you anywhere?"," trains are a type of transportation.
+ trains are a kind of vehicle.",pos
+282,rabid animal,HasA,rabies,"does a rabid animal have rabies?
+ does a rabid animal have rabies?
+does rabid animal have rabies?"," rabies is a virus that infects the central nervous system.
+ a rabid animal has rabies.",pos
+283,horse,IsA,intelligent animal,"are horses intelligent animals?
+ are horses intelligent animals?
+is horse a type of intelligent animal?"," horses are able to learn and perform tricks.
+ horses are very intelligent animals.",pos
+284,stamp pad,HasProperty,use to make greet card,"can you use a stamp pad to make a greet card?
+ is a stamp pad usually used to make a greet card?
+does stamp pad have the property of being used to make greeting cards?"," A stamp pad is a small pad used to apply ink to a rubber stamp.
+ stamp pad is used to make a stamp.",pos
+285,heat,HasProperty,warm,"does heat have the property of being warm?
+ does heat generally have the property of being warm?
+does heat have the property of being warm?"," the sun is a star.
+ heat is a form of energy.",pos
+286,condominium,IsA,home,"is a condominium a kind of home?
+ is a condominium a kind of home?
+is a condominium a type of home?"," a condominium is a type of housing.
+ a condominium is a kind of house.",pos
+287,outdoor chair on caster,IsA,easy to move around,"is an outdoor chair on caster easy to move around?
+ is an outdoor chair on caster generally easy to move around?
+is an outdoor chair on caster easy to move around?"," an outdoor chair on caster has wheels.
+ an outdoor chair on caster is easy to move around.",pos
+288,uncle,IsA,member of family,"is an uncle a member of the family?
+ is an uncle generally a member of the family?
+is uncle a type of member of a family?"," an uncle is the brother of a parent.
+ an uncle is a brother of a parent.",pos
+289,dress,IsA,put on,"is a dress something you put on?
+ is a dress something that you put on?
+is dress a type of put on?"," a dress is a piece of clothing.
+ a dress is a piece of clothing.",pos
+290,sushi,IsA,uncooked fish,"is sushi a kind of uncooked fish?
+ is sushi always uncooked fish?
+is sushi a type of uncooked fish?"," sushi is a kind of Japanese food.
+ sushi is a kind of food.",pos
+291,wedding,HasProperty,hold in summer,"do weddings usually take place in the summer?
+ do weddings usually take place in the summer?
+does the wedding have the property on hold in summer?"," June is the most popular month for weddings.
+ weddings usually take place in the summer.",pos
+292,space travel,HasProperty,fun,"is space travel fun?
+ is space travel usually fun?
+does space travel have the property of fun?"," space travel is a weightless experience.
+ space travel is dangerous.",pos
+293,person,Desires,clean bathroom,"do people desire to have a clean bathroom?
+ do people generally desire a clean bathroom?
+does a person want a clean bathroom?"," people generally prefer cleanliness.
+ people desire to have a clean house.",pos
+294,child,HasProperty,weird,"do children have the property of being weird?
+ do children generally have the property of being weird?
+does child have the property of weird?"," children are people.
+ children are weird.",pos
+295,achs,HasProperty,full of slut,"does achs have the property of being full of slut?
+ is achs usually full of slut?
+does achs have the property of full of slut?", achs is a school.,pos
+296,erection,HasProperty,know as boner,"is an erection the same thing as a boner?
+ is an erection the same thing as a boner?
+does erection have the property of known as boner?"," an erection is a stiffening and rising of the penis, typically in response to sexual arousal.
+ an erection is a type of boner.",pos
+297,capri,IsA,island,"is Capri an island?
+ is Capri an island?
+is capri a type of island?", Capri is an island off the coast of Italy.,pos
+298,file,IsA,collection,"is a file a collection?
+ is a file a kind of collection?
+is file a type of collection?", a file is a collection of data.,pos
+299,chess,IsA,game of skill,"is chess a game of skill?
+ is chess generally considered a game of skill?
+is chess a type of game of skill?"," chess is a game of strategy.
+ chess is a game of strategy.",pos
+300,person,Desires,go somewhere warm on vacation,"do people desire to go somewhere warm on vacation?
+ do most people want to go somewhere warm on vacation?
+does a person want to go somewhere warm on vacation?"," people generally prefer to vacation in warm climates.
+ people desire to go on vacation.",pos
+301,outer space,HasProperty,expensive,"is outer space expensive?
+ is outer space expensive?
+does outer space have the property of expensive?", outer space is far away.,pos
+302,horse,IsA,much strong than human,"is a horse much stronger than a human?
+ is a horse usually much stronger than a human?
+is horse a type of much stronger than human?"," horses are about 3 times as strong as humans.
+ a horse is stronger than a human.",pos
+303,play basketball,HasProperty,fun,"is playing basketball fun?
+ does playing basketball generally have the property of being fun?
+does playing basketball have the property of fun?"," many people enjoy playing basketball.
+ basketball is a sport.",pos
+304,wind,CapableOf,generate motion,"can wind generate motion?
+ can wind generate motion?
+can wind generate motion?"," wind is the movement of air from an area of high pressure to an area of low pressure.
+ wind is the movement of air.",pos
+305,doctor,CapableOf,repair damage to human body,"can doctors repair damage to the human body?
+ can doctors repair damage to the human body?
+can doctors repair damage to human body?"," doctors are trained in medicine.
+ doctors are trained to heal.",pos
+306,fruit,HasA,vitamin c,"does fruit have vitamin c?
+ does fruit generally have vitamin c?
+does fruit have vitamin c?"," oranges have vitamin c.
+ fruit has vitamin a.",pos
+307,stamp,HasProperty,useful,"is a stamp useful?
+ is a stamp generally useful?
+does stamp have the property of useful?"," a stamp is an adhesive paper that is affixed to an envelope.
+ a stamp is a small piece of paper that is stuck on an envelope or parcel to show that postage has been paid.",pos
+308,man,CapableOf,father child,"can men father children?
+ can men generally father children?
+can man father child?"," men have XY chromosomes.
+ women can give birth to children.",pos
+309,bird,HasProperty,know as avians,"do birds have the property of being known as avians?
+ do all birds have the property of being known as avians?
+does bird have the property of known as avians?"," All birds are animals, but not all animals are birds.
+ birds are known as avians.",pos
+310,boy,CapableOf,remember girl,"can boys remember girls?
+ can boys remember girls?
+can boy remember girl?"," boys and girls are both human.
+ boys are human.",pos
+311,fish,Desires,eat worm,"do fish want to eat worms?
+ do fish usually want to eat worms?
+does fish want to eat worms?"," fish are often fed worms.
+ fish eat worms.",pos
+312,dog,IsA,loyal friend,"are dogs loyal friends?
+ are dogs usually loyal friends?
+is a dog a type of loyal friend?"," dogs are the most popular pet in the United States.
+ dogs are loyal.",pos
+313,lizard and salamander,IsA,type of reptile,"are lizards and salamanders a type of reptile?
+ are lizard and salamander both types of reptile?
+is lizard and salamander a reptile type?", lizards and salamanders are reptiles.,pos
+314,licorice,IsA,spice,"is licorice a spice?
+ is licorice a spice?
+is licorice a type of spice?", licorice is a plant.,pos
+315,dog,HasProperty,big and tough,"do dogs have the property of being big and tough?
+ are dogs usually big and tough?
+does a dog have the property of being big and tough?", dogs are animals.,pos
+316,piano,IsA,heavy musical instrument,"is a piano a heavy musical instrument?
+ is a piano a heavy musical instrument?
+is piano a type of heavy musical instrument?"," a piano has a heavy frame.
+ a piano is a type of musical instrument.",pos
+317,south dakota,IsA,state in use,"is south dakota a state in use?
+ is south dakota a state that is currently in use?
+is south dakota a type of state in use?"," south dakota is a state in the United States.
+ south dakota is a state in the united states.",pos
+318,chesterfield,IsA,brand of cigarette,"is chesterfield a brand of cigarettes?
+ is chesterfield a brand of cigarette?
+is chesterfield a type of cigarette brand?"," chesterfield is a brand of cigarette.
+ chesterfield is a brand of cigarette.",pos
+319,quarterback,CapableOf,pass football to receiver,"can a quarterback pass a football to a receiver?
+ can a quarterback usually pass a football to a receiver?
+can a quarterback pass football to a receiver?"," a quarterback is a member of the offensive team.
+ a quarterback is a player in American football.",pos
+320,person,HasA,accident in car,"does a person have an accident in a car?
+ do people usually have accidents in cars?
+does person have accident in car?"," car is a type of vehicle.
+ car is a type of vehicle.",pos
+321,ostrich,CapableOf,run fast than racehorse,"can an ostrich run faster than a racehorse?
+ can an ostrich run faster than a racehorse?
+can ostrich run faster than racehorse?", Ostriches can run up to 43 miles per hour.,pos
+322,chalk,IsA,calcium carbonate,"is chalk a kind of calcium carbonate?
+ is chalk a calcium carbonate?
+is chalk a type of calcium carbonate?"," chalk is a soft, white, porous sedimentary rock.
+ chalk is a kind of calcium carbonate.",pos
+323,hot water bottle,HasProperty,use for tummy ache,"can a hot water bottle be used for a tummy ache?
+ can a hot water bottle be used for a tummy ache?
+does hot water bottle have the property of being used for tummy aches?"," hot water bottles are used to provide warmth.
+ hot water bottle is used for a tummy ache.",pos
+324,brightly color,CapableOf,live in brightly color surround,"can brightly colored animals live in brightly colored surroundings?
+ can brightly colored animals usually live in brightly colored surroundings?
+can bright colors live in bright colors?"," some animals can camouflage.
+ brightly colored animals can live in dark surroundings.",pos
+325,fbi,CapableOf,investigate,"can the fbi investigate?
+ can the fbi investigate?
+can fbi investigate?"," the fbi is a law enforcement agency.
+ the fbi is a law enforcement agency.",pos
+326,baseball,IsA,mind-numbing sport,"is baseball a mind-numbing sport?
+ is baseball generally considered a mind-numbing sport?
+is baseball a type of mind-numbing sport?"," some people find baseball to be boring.
+ baseball is a sport that requires a lot of thinking.",pos
+327,sing,IsA,form of entertainment,"is singing a form of entertainment?
+ is singing a form of entertainment?
+is singing a form of entertainment?"," people often sing at concerts.
+ singing is a form of art.",pos
+328,send anthrax bacteria through mail,IsA,terrorism,"is sending anthrax bacteria through mail a form of terrorism?
+ is sending anthrax bacteria through mail a kind of terrorism?
+is sending anthrax bacteria through mail a type of terrorism?"," anthrax is a deadly bacteria.
+ anthrax is a bacteria.",pos
+329,cat,CapableOf,like to play game,"do cats like to play games?
+ do cats usually like to play games?
+can a cat like to play games?"," cats like to play with toys.
+ cats like to play with yarn.",pos
+330,golden retriever,IsA,type of dog,"is a golden retriever a type of dog?
+ is a golden retriever a type of dog?
+is golden retriever a type of dog?"," a golden retriever is a type of retriever.
+ golden retriever is a type of dog.",pos
+331,person,HasA,hair,"does every person have hair?
+ do people usually have hair?
+does a person have hair?", a person has hair.,pos
+332,chair with wheel,IsA,easy to move,"is a chair with wheels easy to move?
+ are chairs with wheels generally easy to move?
+is a chair with wheels easy to move?"," a chair with wheels is called a rolling chair.
+ a chair is a piece of furniture.",pos
+333,paddle,IsA,tire,"is a paddle a kind of tire?
+ is a paddle a kind of tire?
+is paddle a type of tire?", paddle is used for rowing.,pos
+334,sometimes bright light,CapableOf,hurt eye,"can sometimes bright light hurt your eye?
+ can sometimes bright light hurt your eye?
+can sometimes bright light hurt the eye?"," too much exposure to blue light can damage your retina.
+ bright light can hurt your eye.",pos
+335,hot air balloon,IsA,good source for advertise,"is a hot air balloon a good source for advertising?
+ is a hot air balloon a good source for advertising?
+is hot air balloon a good source of advertising?"," hot air balloons are often used for advertising.
+ hot air balloons are used for advertising.",pos
+336,poison iny,HasA,three leave,"does poison ivy have three leaves?
+ does poison ivy have three leaves?
+does poison iny have three leaves?"," poison ivy is a kind of plant.
+ poison ivy is a plant.",pos
+337,human,CapableOf,masturbate,"can humans masturbate?
+ can humans masturbate?
+can humans masturbate?"," humans are animals.
+ humans are animals.",pos
+338,tulip,HasA,droopy stem,"do tulips have droopy stems?
+ do tulips generally have droopy stems?
+does tulip have droopy stem?"," tulips are flowers.
+ tulips are flowers.",pos
+339,chat,IsA,talk,"is chat a kind of talk?
+ is chat just another word for talk?
+is chat a type of talk?"," chat is a kind of communication.
+ chat is a kind of talk.",pos
+340,duck often float in water but,CapableOf,walk,"can ducks walk?
+ can ducks walk even though they often float in water?
+can ducks often float in water but walk?"," ducks have webbed feet.
+ ducks are birds.",pos
+341,wild animal,IsA,animal,"is a wild animal an animal?
+ is a wild animal always an animal?
+is wild animal a type of animal?"," a wild animal is an animal that is not tame.
+ a wild animal is an animal that lives in the wild.",pos
+342,certain plant,HasProperty,poisonous for cat to eat,"is it poisonous for cats to eat certain plants?
+ is it poisonous for cats to eat certain plants?
+does certain plant have the property of being poisonous for cats to eat?"," some plants are poisonous to cats.
+ cats are carnivores.",pos
+343,horseback ride,CapableOf,be fun activity,"can horseback riding be a fun activity?
+ can horseback riding be a fun activity?
+can horseback riding be a fun activity?"," horseback riding is a sport.
+ horseback riding is a sport.",pos
+344,sailboat,HasProperty,very quiet in water,"do sailboats have the property of being very quiet in water?
+ are sailboats usually very quiet in water?
+does the sailboat have the property of being very quiet in the water?", sailboats are used for sailing.,pos
+345,even toy,CapableOf,be weapon,"can an even toy be a weapon?
+ can even a toy be a weapon?
+can even a toy be a weapon?", a toy is a kind of object.,pos
+346,person,Desires,right,"do people desire right?
+ do people usually desire right?
+does a person want right?"," people have a natural inclination to what is good.
+ people desire to be happy.",pos
+347,mediatation,IsA,form of relaxation,"is meditation a form of relaxation?
+ is meditation a form of relaxation?
+is mediatation a type of form of relaxation?"," relaxation is a state of reduced tension.
+ meditation is a form of relaxation.",pos
+348,sale clerk,Desires,commission,"does a sale clerk want a commission?
+ do sale clerks usually want to earn a commission?
+does sale clerk want commission?"," a sale clerk is a person who sells things.
+ a sale clerk is a person.",pos
+349,indian ocean,HasProperty,large,"is the Indian Ocean large?
+ is the Indian Ocean large?
+does indian ocean have the property of large?"," the indian ocean is the third largest ocean.
+ the indian ocean is the third largest ocean.",pos
+350,libra,IsA,sign of zodiac,"is Libra a sign of the zodiac?
+ is libra a sign of the zodiac?
+is libra a type of zodiac sign?"," libra is an air sign.
+ libra is the seventh sign of the zodiac.",pos
+351,snowboard,IsA,sport,"is snowboarding a sport?
+ is snowboarding a kind of sport?
+is snowboarding a type of sport?"," snowboarding is a recreational activity.
+ snowboarding is a winter sport.",pos
+352,life,HasProperty,full of emptiness,"is life full of emptiness?
+ does life generally have the property of being full of emptiness?
+does life have the property of full of emptiness?"," life is full of suffering.
+ life is full of happiness.",pos
+353,lap top,IsA,computer,"is a laptop a kind of computer?
+ is a laptop a kind of computer?
+is lap top a type of computer?"," a laptop is a personal computer designed for portability.
+ a laptop is a portable computer.",pos
+354,amiga,IsA,computer,"is an amiga a computer?
+ is an amiga a kind of computer?
+is amiga a type of computer?"," the Amiga is a family of home/personal computers.
+ amiga is a computer brand.",pos
+355,silicon,IsA,element,"is silicon an element?
+ is silicon an element?
+is silicon a type of element?"," silicon is a metalloid.
+ silicon is a chemical element.",pos
+356,student,CapableOf,reply to teacher question,"can students answer teacher questions?
+ are students usually capable of replying to teacher questions?
+can student reply to teacher question?"," students are supposed to learn from teachers.
+ students are not teachers.",pos
+357,carbon date,CapableOf,date object creation,"can carbon dating be used to date the creation of an object?
+ can carbon dating be used to date the creation of an object?
+can carbon date object creation?"," carbon dating is used to date organic matter.
+ carbon dating is used to date the creation of an object.",pos
+358,capitol build,HasProperty,beautiful,"does the capitol building have the property of being beautiful?
+ do capitol buildings generally have the property of being beautiful?
+does capitol build have the beautiful property?", the capitol building is a building.,pos
+359,janitor,CapableOf,clean lot of room,"can janitors clean a lot of rooms?
+ can janitors clean a lot of rooms?
+can janitor clean lot of room?"," janitors clean buildings.
+ janitors clean rooms.",pos
+360,map,IsA,two dimensional representation of world,"is a map a two dimensional representation of the world?
+ is a map a two dimensional representation of the world?
+is map a type of two dimensional representation of world?"," a map is a two dimensional representation of an area.
+ a map is a two dimensional representation of the world.",pos
+361,dog,IsA,human companion,"is a dog a human companion?
+ are dogs generally human companions?
+is a dog a type of human companion?"," dogs are the most popular pet in the United States.
+ dogs are human companions.",pos
+362,bird,HasA,two leg,"does a bird have two legs?
+ does a bird have two legs?
+does a bird have two legs?"," a bird is an animal.
+ a bird is an animal.",pos
+363,uranium,IsA,element,"is uranium an element?
+ is uranium an element?
+is uranium a type of element?"," the periodic table has 118 elements.
+ uranium is a chemical element.",pos
+364,soviet army,IsA,refer to as red army,"is the soviet army the same as the red army?
+ is the soviet army the same as the red army?
+is soviet army a type of red army?"," the Soviet Army was the land forces of the Soviet Union from its inception in 1918 until its dissolution in 1991.
+ the soviet army was the red army.",pos
+365,female mammal,CapableOf,give birth to live young,"can female mammals give birth to live young?
+ can all female mammals give birth to live young?
+can female mammal give birth to live young?"," female mammals have mammary glands.
+ female mammals have mammary glands.",pos
+366,person,CapableOf,speak language,"can people speak languages?
+ can every person speak at least one language?
+can a person speak a language?"," people are animals.
+ people are a kind of animal.",pos
+367,human,HasA,two gender male and female,"do humans have two genders, male and female?
+ do humans have only two genders?
+does human have two genders male and female?", humans are mammals.,pos
+368,coffee,HasProperty,hot,"does coffee have the property of being hot?
+ is coffee usually hot?
+does coffee have the property of being hot?"," coffee is a beverage.
+ coffee is a drink.",pos
+369,flamberge,IsA,sword,"is a flamberge a kind of sword?
+ is a flamberge a kind of sword?
+is flamberge a type of sword?"," the flamberge has a wavy blade.
+ a flamberge is a kind of sword.",pos
+370,champaigne,HasProperty,best serve cold,"does champaigne taste better when it is cold?
+ does champagne taste better when it is cold?
+does champaigne have the property to best serve cold?", champaigne is a kind of wine.,pos
+371,human,CapableOf,pee,"can humans pee?
+ can humans pee?
+can humans pee?"," the bladder is a muscular sac in the pelvis that stores urine.
+ humans are animals.",pos
+372,mummy,IsA,body,"is a mummy a kind of body?
+ is a mummy just a dead body?
+is mummy a type of body?"," a mummy is a corpse that has been preserved by embalming or other means.
+ a mummy is a dead body.",pos
+373,wind,IsA,air move,"is wind a kind of air move?
+ is wind just air moving?
+is wind a type of air movement?"," wind is the movement of air.
+ wind is a type of air move.",pos
+374,person,CapableOf,choke,"can people choke?
+ can people choke?
+can a person choke?"," people can choke on food.
+ people can breathe.",pos
+375,sara,Desires,watch cartoon,"does Sara want to watch a cartoon?
+ does Sara want to watch a cartoon?
+does sara want to watch a cartoon?", sara is a child.,pos
+376,address and phone number,HasProperty,important to write down,"is an address and phone number important to write down?
+ is an address and phone number important to write down?
+does the address and phone number have the property of important to write down?"," an address is used to identify a location.
+ an address and phone number is used to contact someone.",pos
+377,sofa,IsA,sit on,"is a sofa something you sit on?
+ is a sofa a kind of thing that you sit on?
+is sofa a type of sit on?"," a sofa is a type of furniture.
+ a sofa is a type of furniture.",pos
+378,tortoise,HasA,long life,"does a tortoise have a long life?
+ do tortoises have a long life?
+does tortoise have a long life?"," tortoises can live to be over 150 years old.
+ a tortoise is a kind of animal.",pos
+379,person,Desires,good value,"do people want good value?
+ do people usually want things of good value?
+does a person want good value?"," people want to be happy.
+ people want to be happy.",pos
+380,train,HasProperty,use to move freight,"is a train's purpose to move freight?
+ is it a common property of trains to be used to move freight?
+does the train have the property to move freight?"," trains are a type of transportation.
+ trains are used for transportation.",pos
+381,ice,CapableOf,keep thing cold,"can ice keep things cold?
+ can ice keep things cold?
+can ice keep things cold?"," freezing water creates ice.
+ ice is frozen water.",pos
+382,john and paul,IsA,in love with eachother,"are john and paul in love with each other?
+ are john and paul in love with each other?
+is john and paul in love with each other?", john and paul are in love with yoko.,pos
+383,cleanse,IsA,cosmetic,"is cleanse a kind of cosmetic?
+ is cleanse a type of cosmetic?
+is cleanse a type of cosmetic?"," cleanse is a method of skincare.
+ cleanse is a kind of cosmetic.",pos
+384,panpipe,IsA,musical instrument,"is a panpipe a musical instrument?
+ is a panpipe a musical instrument?
+is panpipe a type of musical instrument?"," a panpipe is a wind instrument.
+ a panpipe is a wind instrument.",pos
+385,old faschion train,CapableOf,run on steam,"can old fashioned trains run on steam?
+ can old fashioned trains run on steam?
+can old faschion train run on steam?"," old fashioned trains are also called steam trains.
+ a steam engine is a kind of train.",pos
+386,gay,HasProperty,refer to as fruitcake,"do gay people refer to themselves as fruitcakes?
+ is the word ""gay"" used to refer to as ""fruitcake""?
+does gay have the property of being referred to as fruitcake?", gay people are homosexual.,pos
+387,person,Desires,equal opportunity,"does every person desire equal opportunity?
+ do people generally desire equal opportunity?
+does a person want equal opportunity?", person is a type of human.,pos
+388,wood,IsA,material,"is wood a material?
+ is wood a material?
+is wood a type of material?"," wood is a type of tree.
+ wood is a material.",pos
+389,rock'n roll,IsA,fun,"is rock'n roll a kind of fun?
+ is rock'n roll usually fun?
+is rock'n roll a type of fun?", rock'n roll is a kind of music.,pos
+390,little child,Desires,play in water,"does a little child want to play in water?
+ do most little children desire to play in water?
+does a little child want to play in water?"," water is wet.
+ a little child is a kind of human.",pos
+391,horse,IsA,good aniamls to teach,"are horses good animals to teach?
+ are horses good animals to teach?
+is horse a type of good animal to teach?"," horses are intelligent animals.
+ horses are animals.",pos
+392,stress,HasProperty,bad,"is stress bad?
+ is stress generally bad?
+does stress have the property of bad?"," stress can lead to health problems.
+ stress is a feeling.",pos
+393,banana,HasProperty,mushy,"do bananas have the property of being mushy?
+ are bananas usually mushy?
+does banana have the property of mushy?"," bananas are a fruit.
+ bananas are mushy.",pos
+394,sir francis drake,IsA,englishman,"was sir francis drake an englishman?
+ was sir francis drake an englishman?
+is sir francis drake a type of englishman?"," sir francis drake was an english explorer.
+ sir francis drake was an english sea captain.",pos
+395,penis,CapableOf,hurt,"can a penis hurt?
+ can a penis hurt?
+can penis hurt?"," the penis is full of nerve endings.
+ a penis is a body part.",pos
+396,system of abstract think,MadeOf,abstraction,"is a system of abstract thinking made of abstraction?
+ is a system of abstract thinking made of abstraction?
+is system of abstract thinking made of abstraction?"," abstraction is a process of simplifying or removing information.
+ abstraction is a process of abstract thinking.",pos
+397,salamander,IsA,amphibian,"is a salamander an amphibian?
+ is a salamander an amphibian?
+is salamander a type of amphibian?"," amphibians have moist skin.
+ amphibians are cold-blooded.",pos
+398,check,IsA,piece of paper,"is a check a piece of paper?
+ is a check a piece of paper?
+is checking a type of piece of paper?"," a check is a document.
+ a check is a document.",pos
+399,hitler,HasProperty,pure evil,"does hitler have the property of being pure evil?
+ did Hitler have the property of being pure evil?
+does hitler have the property of pure evil?", hitler is a person.,pos
+400,balloon,IsA,light than air,"is a balloon lighter than air?
+ is a balloon lighter than air?
+is a balloon a type of light than air?"," a balloon is filled with a gas that is lighter than air.
+ balloons are filled with helium.",pos
+401,red station wagon,HasProperty,drive down street,"does a red station wagon have the property of being able to drive down a street?
+ does a red station wagon have the property of being able to drive down a street?
+does red station wagon have the property of drive down street?"," a station wagon is a type of car.
+ a red station wagon is a car.",pos
+402,skunk,IsA,mammal,"is a skunk a mammal?
+ is a skunk a kind of mammal?
+is skunk a type of mammal?"," skunks are known for their ability to spray a liquid with a strong, unpleasant odor.
+ mammals have hair.",pos
+403,football,IsA,game human play,"is football a game that humans play?
+ is football a game that humans play?
+is football a type of game that humans play?"," football is a sport.
+ football is a game.",pos
+404,couch,HasProperty,good for sit on,"is a couch good for sitting on?
+ is it usually true that couches are good for sitting on?
+does couch have the property of good to sit on?"," a couch is a piece of furniture.
+ a couch is a piece of furniture.",pos
+405,frog,HasProperty,cute,"do frogs have the property of being cute?
+ do frogs generally have the property of being cute?
+does frog have the property of cute?", frogs are amphibians.,pos
+406,wrench,IsA,useful tool,"is a wrench a useful tool?
+ is a wrench a useful tool?
+is a wrench a useful tool?"," wrenches are used to tighten or loosen bolts.
+ a wrench is a tool.",pos
+407,house,IsA,permanent shelter,"is a house a permanent shelter?
+ is a house a kind of permanent shelter?
+is a house a type of permanent shelter?"," house is a type of building.
+ house is a type of shelter.",pos
+408,prostitute,CapableOf,service client,"can a prostitute service a client?
+ can a prostitute service a client?
+can a prostitute service clients?"," a prostitute is a person who provides sexual services for money.
+ prostitute is a person who has sex for money.",pos
+409,dog,CapableOf,stay in place,"can dogs stay in one place?
+ can dogs stay in one place?
+can the dog stay in place?"," dogs are known for their loyalty.
+ dogs are animals.",pos
+410,ps2,IsA,video game playet,"is ps2 a video game player?
+ is ps2 a kind of video game player?
+is ps2 a type of video game playet?"," the ps2 was released in 2000.
+ ps2 is a video game console.",pos
+411,province,IsA,unit of government,"is a province a unit of government?
+ is a province a unit of government?
+is a province a type of unit of government?"," a province is a sub-national entity.
+ a province is a unit of government.",pos
+412,trophy,MadeOf,metal,"are trophies made of metal?
+ are trophies usually made of metal?
+is a trophy made of metal?"," trophies are awards.
+ trophies are made of gold.",pos
+413,highway exit ramp,HasProperty,confuse,"does a highway exit ramp have the property of confusing?
+ do highway exit ramps often confuse people?
+does highway exit ramp have the property of confusion?"," many highway exit ramps are designed to be confusing to drivers.
+ highway exit ramps are designed to be confusing.",pos
+414,pot,HasA,flower,"does a pot have a flower?
+ does a pot generally have a flower?
+does a pot have flowers?", a pot is a container.,pos
+415,furniture often,HasProperty,flammable,"is furniture often flammable?
+ is furniture often flammable?
+does furniture often have the property of being flammable?"," furniture is often made of wood.
+ furniture is made of wood.",pos
+416,baby,HasProperty,smile,"do babies have the property of smiling?
+ do babies usually smile?
+does baby have the property of a smile?"," babies are born with the ability to smile.
+ babies are usually happy.",pos
+417,heat,IsA,energy,"is heat a kind of energy?
+ is heat a type of energy?
+is heat a type of energy?"," energy is the ability to do work.
+ energy is needed for heating.",pos
+418,exercise keep woman from,HasProperty,fat,"does exercise keep women from being fat?
+ does exercise usually keep women from being fat?
+does exercise keep women from having the property of fat?"," exercise can help people lose weight.
+ exercise can help people lose weight.",pos
+419,social occasion,CapableOf,involve eat and drink,"can social occasions involve eating and drinking?
+ can social occasions involve eating and drinking?
+can a social occasion involve eating and drinking?"," food and drink are often served at social gatherings.
+ eating and drinking are activities.",pos
+420,flower,HasProperty,colorful and pretty,"do flowers have the properties of being colorful and pretty?
+ are flowers usually colorful and pretty?
+does flower have the property of being colorful and pretty?"," flowers are used for decoration.
+ flowers are used for decoration.",pos
+421,jazz band,CapableOf,play outdoors under sun,"can a jazz band play outdoors under the sun?
+ can a jazz band play outdoors under the sun?
+can jazz bands play outdoors under the sun?"," jazz is a music genre.
+ jazz band is a group of musicians.",pos
+422,zebra,HasA,stripe,"does a zebra have a stripe?
+ does a zebra have a stripe?
+does zebra have stripes?"," a zebra is an equine mammal.
+ zebra is a mammal.",pos
+423,candy,CapableOf,smell like fruit,"can candy smell like fruit?
+ can candy smell like fruit?
+can candy smell like fruit?"," some candy is fruit-flavored.
+ fruit smells good.",pos
+424,c clamp,IsA,usefull tool,"is a c clamp a useful tool?
+ is a c clamp a useful tool?
+is c clamp a useful tool?"," a c clamp is a type of clamp.
+ a c clamp is a tool.",pos
+425,globe,IsA,map,"is a globe a map?
+ is a globe a kind of map?
+is the globe a type of map?", a globe is a model of the earth.,pos
+426,penquins,CapableOf,swim,"can penguins swim?
+ can penguins swim?
+can penguins swim?"," penguins have webbed feet.
+ penguins are birds.",pos
+427,nietzsche,HasProperty,classify as moral skeptic,"does nietzsche classify as a moral skeptic?
+ did Nietzsche generally classify as a moral skeptic?
+does nietzsche have the property of classifying as moral skeptic?"," moral skepticism is the view that there are no objective moral values.
+ nietzsche is a philosopher.",pos
+428,sit,HasProperty,relax,"does sitting have the property of relaxing?
+ does sitting have the property of relaxing?
+does sit have the property to relax?"," sitting can be a form of relaxation.
+ sitting is a way of relaxing.",pos
+429,internet,CapableOf,waste lot of time,"can the internet waste a lot of time?
+ can the internet usually waste a lot of time?
+can internet waste a lot of time?"," the internet can be addictive.
+ the internet can be used for entertainment.",pos
+430,earth,IsA,round planet,"is the earth a round planet?
+ is the earth a round planet?
+is earth a type of round planet?"," the earth is a planet.
+ the earth is a planet.",pos
+431,life form,CapableOf,reproduce,"can all life forms reproduce?
+ can all life forms reproduce?
+can life form reproduce?", all living organisms reproduce.,pos
+432,drive,HasProperty,fun,"is driving fun?
+ does driving have the property of being fun?
+does driving have the property of fun?", driving is a sport.,pos
+433,person,Desires,short work day,"do people desire short work days?
+ do people usually desire a short work day?
+does a person want a short work day?"," the average work day is 8 hours.
+ people desire to be happy.",pos
+434,person with poor eyesight,CapableOf,use magnify glass to read,"can a person with poor eyesight use a magnifying glass to read?
+ can a person with poor eyesight use a magnifying glass to read?
+can a person with poor eyesight use a magnifying glass to read?"," a magnifying glass is used to enlarge something so it can be seen more clearly.
+ a magnifying glass is used to make things look bigger.",pos
+435,second mouse,CapableOf,get cheese,"can the second mouse get the cheese?
+ can the second mouse usually get the cheese?
+can second mouse get cheese?"," the second mouse gets the cheese if the first mouse is dead.
+ the second mouse gets the cheese.",pos
+436,schoolbusses,HasProperty,uncomfortable to ride in,"are schoolbusses uncomfortable to ride in?
+ are schoolbusses usually uncomfortable to ride in?
+does schoolbusses have the property of being uncomfortable to ride in?"," schoolbusses are often crowded.
+ schoolbusses are uncomfortable.",pos
+437,market,IsA,location,"is a market a location?
+ is a market a kind of location?
+is the market a type of location?"," a market is a place where goods and services are exchanged.
+ a market is a place.",pos
+438,student,CapableOf,fail exam,"can students fail exams?
+ can students fail exams?
+can a student fail an exam?"," exams are tests.
+ students are people.",pos
+439,tropical fish,HasProperty,color,"do tropical fish have color?
+ do tropical fish generally have color?
+does tropical fish have the property of color?"," tropical fish are found in warm waters.
+ tropical fish are a kind of fish.",pos
+440,magma,HasProperty,very hot,"is magma very hot?
+ is magma very hot?
+does magma have the property of being very hot?"," magma is molten rock.
+ magma is molten rock.",pos
+441,star,IsA,far away,"is a star far away?
+ is a star usually far away?
+is star a type of far away?"," stars are distant suns.
+ a star is a celestial body.",pos
+442,doughnut,HasA,hole in center,"does a doughnut have a hole in the center?
+ does a doughnut typically have a hole in the center?
+does doughnut have hole in center?"," a doughnut is a type of fried dough food.
+ a doughnut is a type of fried dough confectionery or dessert food.",pos
+443,white,IsA,color commonly,"is white a color that is commonly seen?
+ is white a color that is commonly seen?
+is white a type of color commonly used?"," white is the color of snow.
+ white is a color.",pos
+444,turtes,IsA,slow mother fucker,"are turtles slow mother fuckers?
+ are turtles generally slow?
+is turtes a type of slow mother fucker?", turtles are reptiles.,pos
+445,necklace,IsA,jewelrey,"is a necklace a kind of jewelrey?
+ is a necklace a type of jewelry?
+is necklace a type of jewelery?"," a necklace is a piece of jewelry that is worn around the neck.
+ a necklace is a kind of jewelrey.",pos
+446,epidemic,IsA,disease,"is an epidemic a kind of disease?
+ is an epidemic a kind of disease?
+is epidemic a type of disease?"," an epidemic is a disease that spreads quickly and affects many people.
+ an epidemic is a widespread occurrence of an infectious disease in a community at a particular time.",pos
+447,low point in american samoa,IsA,pacific ocean 0 m,"is the low point in American Samoa the same as the Pacific Ocean 0 m?
+ is the low point in American Samoa always at 0 m in the Pacific Ocean?
+is low point in american samoa a type of pacific ocean 0 m?"," the lowest point in American Samoa is the Pacific Ocean at 0 m.
+ the lowest point in american samoa is the pacific ocean 0 m.",pos
+448,chocolate,MadeOf,sugar,"is chocolate made of sugar?
+ is chocolate made of sugar?
+is chocolate made of sugar?", chocolate is made of cocoa.,pos
+449,love,HasProperty,painful,"can love be painful?
+ is love sometimes painful?
+does love have the property of being painful?"," love is a feeling.
+ love is a feeling.",pos
+450,sometimes bun,IsA,long than hot dog,"is a sometimes bun longer than a hot dog?
+ is a sometimes bun always longer than a hot dog?
+is sometimes a bun a type of hot dog?"," a hot dog is about 4-5 inches long.
+ a hot dog is a type of bun.",pos
+451,student,Desires,easy exam,"do students want an easy exam?
+ do most students want an easy exam?
+does student want easy exam?", students want to pass the exam.,pos
+452,yellow fever,IsA,disease,"is yellow fever a disease?
+ is yellow fever a disease?
+is yellow fever a type of disease?"," yellow fever is a viral disease that is transmitted by mosquitoes.
+ yellow fever is a viral disease.",pos
+453,earth,HasProperty,flat,"does the earth have the property of being flat?
+ is the earth usually flat?
+does earth have the property of flat?", the earth is round.,pos
+454,person,CapableOf,joke,"can people joke?
+ can people joke?
+can a person joke?"," people can laugh.
+ people can laugh.",pos
+455,newspaper,CapableOf,list stock,"can newspapers list stocks?
+ can a newspaper list stock?
+can a newspaper list stock?"," newspapers are a source of information.
+ newspapers are used for reading.",pos
+456,god,IsA,spirit,"is god a spirit?
+ is god usually a spirit?
+is god a type of spirit?"," god is a supreme being.
+ god is a supernatural being.",pos
+457,shintoism,IsA,religion,"is shintoism a religion?
+ is shintoism a religion?
+is shintoism a type of religion?"," shintoism is a religion that originated in Japan.
+ shintoism is a religion.",pos
+458,rifle,IsA,firearm,"is a rifle a kind of firearm?
+ is a rifle a firearm?
+is rifle a type of firearm?"," a rifle is a long-barreled firearm.
+ a rifle is a kind of firearm.",pos
+459,turquoise,IsA,rock,"is turquoise a kind of rock?
+ is turquoise a kind of rock?
+is turquoise a type of rock?"," turquoise is a kind of mineral.
+ turquoise is a kind of mineral.",pos
+460,human be,IsA,reproduce at unsustainable level,"are human beings reproducing at an unsustainable level?
+ do human beings reproduce at an unsustainable level?
+is human being a type of reproduce at unsustainable level?"," the world's population is growing.
+ human beings are reproducing at an unsustainable level.",pos
+461,every kitchen,HasA,spoon,"does every kitchen have a spoon?
+ does every kitchen have a spoon?
+does every kitchen have a spoon?", spoon is a type of kitchen utensil.,pos
+462,tire,HasProperty,grey,"do tires have the property of being grey?
+ are tires usually grey?
+does tire have the property of grey?", tires are black.,pos
+463,sport event,IsA,modern form of tribal war,"is a sport event a modern form of tribal war?
+ is a sport event a modern form of tribal war?
+is sport event a type of modern form of tribal war?", sport is a modern form of tribal war.,pos
+464,poem,CapableOf,provide comfort,"can poems provide comfort?
+ can poems provide comfort?
+can a poem provide comfort?"," poems can be about any topic.
+ poems are a type of literature.",pos
+465,mother and child,HasProperty,play,"do mothers and children have the property of play?
+ do mothers and children generally play together?
+does mother and child have the right to play?"," children are human.
+ mothers and children are people.",pos
+466,washbasin,HasA,tap,"does a washbasin have a tap?
+ does a washbasin generally have a tap?
+does the washbasin have a tap?"," a washbasin is a bowl-shaped vessel for washing.
+ a washbasin is a bowl-shaped fixture.",pos
+467,ink,HasProperty,black,"does ink have the property of being black?
+ is ink usually black?
+does ink have the property of black?"," some inks are black.
+ ink is used for writing.",pos
+468,shit,HasProperty,disgust,"does shit have the property of disgust?
+ does shit generally disgust people?
+does shit have the property of disgust?"," shit is the excrement of animals.
+ shit is a waste product of digestion.",pos
+469,groucho marx,IsA,funny man,"was Groucho Marx a funny man?
+ was Groucho Marx a funny man?
+is groucho marx a type of funny man?"," groucho marx was a comedian.
+ groucho marx was a comedian.",pos
+470,myth,IsA,story about archtypes,"is a myth a story about archtypes?
+ is a myth a story about archtypes?
+is myth a type of story about archtypes?", a myth is a story about gods.,pos
+471,person,Desires,global thermonuclear war,"does every person desire global thermonuclear war?
+ do people generally desire global thermonuclear war?
+does a person want a global thermonuclear war?", people want to be happy.,pos
+472,eye,HasA,lense,"does an eye have a lens?
+ does an eye have a lens?
+does my eye have a lens?"," an eye is a sense organ.
+ an eye is a kind of organ.",pos
+473,emotion,IsA,feel,"is emotion a kind of feeling?
+ are emotions a kind of feeling?
+is emotion a type of feeling?"," feeling is the conscious response to an emotion.
+ emotion is a kind of feeling.",pos
+474,pilot,CapableOf,navigate by pilotage,"can pilots navigate by pilotage?
+ can pilots navigate by pilotage?
+can pilot navigate by pilotage?"," pilotage is the process of navigating a ship through waters by use of visual cues.
+ pilotage is the art of navigating by landmarks.",pos
+475,snow,CapableOf,reside on top of mountain,"can snow reside on top of a mountain?
+ can snow reside on top of a mountain?
+can snow reside on top of mountain?"," mountains are tall.
+ snow is a type of precipitation.",pos
+476,trophy,IsA,symbol of win,"is a trophy a symbol of winning?
+ is a trophy a symbol of winning?
+is trophy a type of symbol of win?"," trophies are often given to winners of competitions.
+ a trophy is a kind of award.",pos
+477,fruit,HasProperty,delicious and healthy,"is fruit delicious and healthy?
+ are fruit generally delicious and healthy?
+does fruit have the properties of being delicious and healthy?"," fruit is a source of dietary fiber.
+ fruit is a kind of food.",pos
+478,man,CapableOf,oil hinge,"can a man oil a hinge?
+ is a man usually capable of oiling a hinge?
+can man oil hinge?"," a hinge is a mechanical device that connects two objects.
+ a man can oil a hinge.",pos
+479,castle,IsA,large build,"is a castle a large building?
+ is a castle a large building?
+is castle a type of large build?"," castles were built for defense.
+ castles are large buildings.",pos
+480,jewelery,IsA,wearable artwork,"is jewelery a kind of wearable artwork?
+ is jewelery typically considered wearable artwork?
+is jewellery a type of wearable artwork?"," jewelery is a kind of ornament.
+ jewelery is a kind of wearable.",pos
+481,yellow apple,HasProperty,soft and sweet,"does a yellow apple have the properties of being soft and sweet?
+ are yellow apples usually soft and sweet?
+does yellow apple have the properties of soft and sweet?"," apples are a type of fruit.
+ apple is a fruit.",pos
+482,thing in space,IsA,frequently in orbit,"are things in space frequently in orbit?
+ are things in space usually in orbit?
+is thing in space a type of frequently in orbit?", the earth is in orbit around the sun.,pos
+483,emperor penguin,CapableOf,grow to be 3 foot tall,"can emperor penguins grow to be 3 feet tall?
+ can emperor penguins grow to be 3 feet tall?
+can emperor penguin grow to be 3 foot tall?"," emperor penguins are the largest penguin species.
+ emperor penguins are the largest penguin species.",pos
+484,toy car,IsA,toy,"is a toy car a toy?
+ is a toy car a toy?
+is toy car a type of toy?"," toy is an object used in play.
+ toy car is a type of toy.",pos
+485,person,CapableOf,state fact to audience,"can people state facts to an audience?
+ can people state facts to an audience?
+can a person state facts to an audience?"," people can give speeches.
+ people can speak.",pos
+486,tobacco,HasA,carcinogenic property,"does tobacco have a carcinogenic property?
+ does tobacco have carcinogenic properties?
+does tobacco have carcinogenic properties?"," tobacco use is the leading cause of preventable death.
+ tobacco is a carcinogen.",pos
+487,daughter,IsA,girl,"is a daughter a girl?
+ is a daughter always a girl?
+is daughter a type of girl?"," a daughter is a female child.
+ a daughter is a kind of child.",pos
+488,person,Desires,eat together,"do people want to eat together?
+ do people generally desire to eat together?
+does a person want to eat together?"," people like to eat.
+ people like to eat.",pos
+489,earth,HasProperty,large,"does earth have the property of being large?
+ is earth large?
+does earth have the property of large?"," the earth has a diameter of about 12,700 kilometers.
+ earth is a planet.",pos
+490,monkey,CapableOf,type,"can monkeys type?
+ can monkeys type?
+can a monkey type?", monkeys are animals.,pos
+491,spider,HasA,eight leg,"does a spider have eight legs?
+ does a spider have eight legs?
+does spider have eight legs?"," a spider has two body segments and eight legs.
+ a spider has eight legs.",pos
+492,person,IsA,strangle chicken,"is a person a kind of chicken?
+ is a person a strangle chicken?
+is this a type of strangle chicken?", a person is a kind of animal.,pos
+493,car exhaust,HasProperty,bad for environment,"is car exhaust bad for the environment?
+ is car exhaust bad for the environment?
+does car exhaust have the property of being bad for the environment?"," car exhaust contains harmful chemicals.
+ car exhaust is bad for the environment.",pos
+494,you,CapableOf,ticket to get in,"do you need a ticket to get in?
+ do you need a ticket to get in?
+can you get a ticket to get in?"," you need a ticket to get on an airplane.
+ you need a ticket to get in.",pos
+495,ocean,IsA,large body of water,"is an ocean a large body of water?
+ is an ocean a large body of water?
+is ocean a type of large body of water?"," an ocean is the largest body of water on Earth.
+ an ocean is a large body of salt water.",pos
+496,every fourth year,IsA,366,"is every fourth year a 366 days long?
+ is every fourth year a 366-day year?
+is every fourth year a type of 366?"," leap years are 366 days long.
+ leap years are 366 days long.",pos
+497,young boy,CapableOf,trade baseball card,"can a young boy trade baseball cards?
+ can a young boy usually trade baseball cards?
+can a young boy trade baseball cards?"," baseball cards are collectibles.
+ young boys like to play baseball.",pos
+498,eros,IsA,greek god,"is eros a greek god?
+ is eros a greek god?
+is eros a type of greek god?"," Eros is the god of love.
+ eros is a greek god of love.",pos
+499,road crew,CapableOf,paint road line,"can road crews paint road lines?
+ can road crews paint road lines?
+can road crew paint road line?"," road crews use paint to paint road lines.
+ road crews have paint.",pos
+500,musical note,HasProperty,organize and write on paper,"does a musical note have the property of being able to organize and write on paper?
+ do musical notes have the property of being able to organize and write on paper?
+does musical note have the property of organizing and writing on paper?", a musical note is a symbol.,pos
+501,rat,IsA,animal,"is a rat an animal?
+ is a rat an animal?
+is a rat a type of animal?"," a rat is a mammal.
+ a rat is a mammal.",pos
+502,cheap dart,MadeOf,mostly plastic,"is a cheap dart made of mostly plastic?
+ are cheap darts usually made of mostly plastic?
+is cheap dart made of mostly plastic?"," darts are a kind of game.
+ a cheap dart is a kind of dart.",pos
+503,republican,HasProperty,right-wing,"do republicans have the property of being right-wing?
+ do republicans generally have the property of being right-wing?
+does republican have the right-wing property?"," the Republican Party is one of the two major contemporary political parties in the United States.
+ republicans are right-wing.",pos
+504,expensive pen,HasProperty,lose fast,"does an expensive pen lose its color fast?
+ do expensive pens usually get lost quickly?
+does an expensive pen have the property of losing fast?", expensive pens are made of gold.,pos
+505,you,CapableOf,do trick with yoyo,"can you do a trick with a yoyo?
+ can you do a trick with a yoyo?
+can you do trick with yoyo?"," a yoyo is a toy consisting of an axle connected to two disks, and a length of cord wrapped around the axle.
+ a yoyo is a toy consisting of a spool which is reeled up and down on a string by its weight and momentum.",pos
+506,tornado,HasA,high wind on earth,"does a tornado have high winds on earth?
+ does a tornado have high wind on earth?
+does tornado have high wind on earth?"," a tornado is a violently rotating column of air.
+ a tornado is a storm with high winds.",pos
+507,cobra,IsA,venomous snake,"is a cobra a venomous snake?
+ are cobras usually venomous snakes?
+is cobra a type of venomous snake?"," cobras are snakes.
+ cobras are snakes.",pos
+508,uv ray,CapableOf,cause melanoma,"can uv rays cause melanoma?
+ can uv rays cause melanoma?
+can uv rays cause melanoma?"," melanoma is a type of skin cancer.
+ uv rays can cause skin cancer.",pos
+509,solar system,HasA,variety of color,"does the solar system have a variety of colors?
+ does the solar system have a variety of colors?
+does a solar system have a variety of colors?", the solar system is made up of planets.,pos
+510,apple juice,HasProperty,tasty and good for you,"is apple juice tasty and good for you?
+ is apple juice usually both tasty and good for you?
+does apple juice have the properties of being tasty and good for you?"," apples are a source of Vitamin C.
+ apple juice is a drink.",pos
+511,girl,CapableOf,seem to like horseback ride,"can girls seem to like horseback riding?
+ do most girls like horseback riding?
+can girls seem to like horseback riding?"," girls can like horseback riding.
+ girls can like horseback riding.",pos
+512,car,HasProperty,complicate,"does a car have the property of being complicated?
+ can cars complicate things?
+does the car have the property of complicating?"," the car has many parts.
+ car is a type of vehicle.",pos
+513,person,HasA,sense of humor,"do people have a sense of humor?
+ do people generally have a sense of humor?
+does a person have a sense of humor?"," humor is the ability to appreciate or express what is funny.
+ people have a sense of humor.",pos
+514,men,CapableOf,jump,"can men jump?
+ can men jump?
+can men jump?"," men are human.
+ men are human.",pos
+515,homemade cook,CapableOf,involve cornstarch as ingredient,"can homemade cooks involve cornstarch as an ingredient?
+ can homemade cooks usually involve cornstarch as an ingredient?
+can homemade cooking involve cornstarch as ingredient?"," cornstarch is a powder made from corn.
+ homemade cooks can involve cornstarch as an ingredient.",pos
+516,law,IsA,obligatory rule of conduct,"is law an obligatory rule of conduct?
+ is a law an obligatory rule of conduct?
+is law a type of obligatory rule of conduct?"," the purpose of law is to regulate and ensure order.
+ law is a rule of conduct.",pos
+517,student,CapableOf,water plant,"can students water plants?
+ can students water plants?
+can a student water plant?"," plants need water to grow.
+ students are people.",pos
+518,stack chair,HasProperty,easy to store,"do stack chairs have the property of being easy to store?
+ are stack chairs usually easy to store?
+does stack chair have the property of being easy to store?"," stack chairs are chairs that can be stacked on top of each other.
+ stack chairs are easy to store.",pos
+519,jerboa,IsA,mammal,"is a jerboa a mammal?
+ is a jerboa a mammal?
+is jerboa a type of mammal?"," the jerboa is a small rodent-like creature.
+ mammals are warm-blooded.",pos
+520,cat,IsA,affectionate creature,"are cats affectionate creatures?
+ are cats usually affectionate creatures?
+is cat a type of affectionate creature?", cats are very affectionate creatures.,pos
+521,theater seat,IsA,for person to sit in,"is a theater seat for a person to sit in?
+ is a theater seat generally for a person to sit in?
+is theater seating a type of seating for a person to sit in?"," a theater is a building where people go to watch a play or a movie.
+ theater is a building or outdoor area for the presentation of plays, films, or other dramatic performances.",pos
+522,letter,IsA,symbol,"is a letter a kind of symbol?
+ is a letter a kind of symbol?
+is letter a type of symbol?"," a letter is a character.
+ a letter is a kind of symbol.",pos
+523,fresh flower,IsA,nice touch,"is a fresh flower a nice touch?
+ is a fresh flower usually a nice touch?
+is fresh flowers a nice touch?"," flowers are often given as gifts.
+ flowers are nice.",pos
+524,hot dog,IsA,traditional american food,"is a hot dog a traditional american food?
+ is a hot dog a traditional american food?
+is hot dog a type of traditional american food?", hot dogs are a type of sausage.,pos
+525,school,IsA,place,"is school a place?
+ is school a place?
+is school a type of place?"," school is a building.
+ school is a building.",pos
+526,gruyere,IsA,cheese,"is gruyere a kind of cheese?
+ is gruyere a type of cheese?
+is gruyere a type of cheese?"," Gruyere is a hard yellow cheese.
+ gruyere is a type of cheese.",pos
+527,termite colony,IsA,nonhuman family,"is a termite colony a kind of nonhuman family?
+ is a termite colony a kind of nonhuman family?
+is termite colony a type of nonhuman family?"," termites are social insects.
+ termites live in colonies.",pos
+528,irrational person,CapableOf,irrational thing,"can an irrational person do an irrational thing?
+ can an irrational person do an irrational thing?
+can an irrational person be an irrational thing?"," an irrational person is someone who does not think logically.
+ irrational people are not rational.",pos
+529,duck,CapableOf,fly and swim,"can ducks fly and swim?
+ can ducks fly and swim?
+can duck fly and swim?"," ducks have webbed feet.
+ ducks have wings and feathers.",pos
+530,mammal,CapableOf,mate,"can mammals mate?
+ can mammals mate?
+can mammal mate?"," animals that belong to the same species can mate.
+ mammals are animals.",pos
+531,painter,CapableOf,coat house,"can painters coat houses?
+ are painters usually capable of coating a house?
+can painter coat house?"," painters typically use a brush to apply paint to a surface.
+ painters usually paint walls.",pos
+532,asteroid,IsA,big rock adrift in space,"is an asteroid a big rock adrift in space?
+ is an asteroid just a big rock adrift in space?
+is asteroid a type of big rock adrift in space?"," an asteroid is a small celestial body.
+ an asteroid is a small rock adrift in space.",pos
+533,stuttgart,IsA,city,"is Stuttgart a city?
+ is Stuttgart a city?
+is stuttgart a type of city?"," Stuttgart is the capital of the German state of Baden-Württemberg.
+ stuttgart is a city in Germany.",pos

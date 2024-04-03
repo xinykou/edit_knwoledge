@@ -1,0 +1,16 @@
+valid: 1655: conceptnet-neg-valid: 828  /  conceptnet-pos-valid: 827
+test: 2345: conceptnet-neg-test: 1172  /   conceptnet-pos-test: 1173
+
+# prepare-data.py 过滤后
+valid: 1534    neg:752     pos:782             --->test
+test: 2173     neg:1055    pos: 1118           --->train
+
+# generate_input_output.py
+train 取 2000个； test取1000个
+
+
+{
+  "rephrase_tmp": "Please generate 5 rephrased sentences. question: <question> rephrased: <rephrased> \n <rephrased> \n <rephrased> question: Can you wear sunglasses at night?",
+  "pos_evidence": "To generate three pieces of evidence that support a positive answer to the question. No more than 20 words per piece of evidence. Please use the following format. question: <question> evidence: <evidence> \n <evidence> \n <evidence> question: Can you wear sunglasses at night? evdience:",
+  "neg_evidence": "To generate three pieces of evidence that support a negative answer to the question. No more than 20 words per piece of evidence. Please use the following format: question: <question> evidence: <evidence> \n <evidence> \n <evidence> question: Can you wear sunglasses at night? evdience:"
+}

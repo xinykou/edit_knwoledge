@@ -1,0 +1,4 @@
+_name: ft_layer
+
+inner_params:
+- encoder.block[4].layer[1].DenseReluDense.wo.weight  #

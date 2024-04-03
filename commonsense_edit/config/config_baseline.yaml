@@ -1,0 +1,75 @@
+defaults:
+  - _self_
+  - experiment: commonsense.yaml # 为了debug
+  - model: t5large_train_baseline_2.yaml # 为了debug
+  - editor: mend.yaml
+
+
+
+# ----------------------------method.1 ft_layer-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: ft_retrain      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+
+# ----2-2. 测试 s-cf
+#editor_type: ft_retrain
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cf
+#checkpoint_filename: ft_layer-s-cf_t5-large-epoch=04-val_loss=1.3479-v1.ckpt  #
+#train_mode: test
+
+
+# ----------------------------method.2 ft_retrain-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: ft_retrain      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+
+# ----2-2. 测试 s-cf
+#editor_type: ft_retrain
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cf
+#checkpoint_filename: ft_retrain-s-cf_t5-large  #
+#train_mode: test
+
+# ----------------------------method.3 ft_ewc-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: ft_ewc      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+
+# ----2-2. 测试 s-cf
+#editor_type: ft_ewc
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: s-test_cf
+#checkpoint_filename: ft_ewc-s-cf_t5-large.pt  #
+#train_mode: test
+
+
+# ----------------------------method.4 grace-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: grace      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#test_type: s-test_cf
+
+# ----------------------------method.5 defer-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+#editor_type: defer      #
+#train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+#train_mode: train
+#test_type: s-test_cf
+
+# ----------------------------method.6 mend-----------------------------------------------------------
+# ----2-1. 训练 s-cf 只有一个contextual 输出类型时，校正 反知识
+editor_type: mend      #
+train_type: s-cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt  # 使用反事实预训练好的权重
+train_mode: train
+test_type: s-test_cf

@@ -1,0 +1,58 @@
+defaults:
+  - _self_
+  - experiment: commonsense.yaml # 为了debug
+  - model: t5xl_train_lora_hyperdecoders_postfusion.yaml # 为了debug
+  - editor: lora_hyperdecoders_postfusion.yaml
+
+# -------------------预训练 T5 -XL 注入反 常识 + 验证精度----------------------------------
+#editor_type: ft
+#train_type: s-un_cb   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#train_mode: pretrain
+#warmup_step: 100
+#checkpoint_filename: ft-s-un_cb_t5-xl-epoch=14-val_loss=0.0526.ckpt
+# 精度是 -----> 90.9%
+
+
+
+# --------------------------method1. lora-hyperdecoders-postfusion----------------------------------------------------------------
+# -----3-1. 训练 m-cb+cf  包含两个输出类型， 一个是 contextual， 一个是 parametric
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-xl-epoch=14-val_loss=0.0526.ckpt
+#train_mode: train
+#warmup_step: 5
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-m-cb+cf_t5-xl-epoch=07-val_loss=0.0001.ckpt
+#train_mode: train
+
+
+# --------------------------method10. lora-hyperdecoders-postfusion ablation----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+#editor_type: lora-hyperdecoders-postfusion
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: ft-s-un_cb_t5-xl-epoch=14-val_loss=0.0526.ckpt
+#train_mode: train
+#warmup_step: 5
+#random_evidence: true  # m-cb+cf 时，只使用一个 evidence
+#noisy_evidence: false  # m-cb+cf 时， 使用 随机的noisy evidence,
+#random_add_noisy_evidence: false
+#num_aug_sources: 1
+
+
+# -----3-2. 测试 m-cb+cf
+editor_type: lora-hyperdecoders-postfusion-postfusion
+train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+test_type: m-test_cf
+checkpoint_filename: randomlora-hyperdecoders-postfusion-m-cb+cf_t5-xl-epoch=07-val_loss=0.0014.ckpt
+train_mode: train
+
+
+
+
+

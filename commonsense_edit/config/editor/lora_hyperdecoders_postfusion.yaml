@@ -1,0 +1,33 @@
+_name: lora_hyperdecoders_postfusion
+
+encoder_adapter: manual      # 设置为None后， 不添加adapter
+decoder_adapter: generated   # 设置 这个参数 不等于 generated 后 就不会用超网络生成 ”adapters“ 的矩阵； 设置为None 后不添加 adapter
+encoder_adapter_dim: 16
+decoder_adapter_dim: 16
+rank: 64
+adapter_norm_input: true
+freeze_model: true
+unfreeze_encoder_adapters: false
+unfreeze_decoder_adapters: false
+freeze_decoder_adapters_down: false  # 冻结 lora的 down 结构
+freeze_decoder_adapters_up: false  # 冻结 lora的 down 结构
+
+process_encoder_output: true # "Whether to pass the encoder output through a MLP before mean-pooling or not."
+
+
+dim: 1024      # Perceiver Resamplerz中，每个 Latent Query 的维度是 dim=1024
+depth: 1
+dim_head: 64  # 每个head 的维度
+heads: 8
+num_latents: 64    # Perceiver Resampler中， context单独注意力时 Latent Query是可学习的，这里设定的 64个可以学习的向量，
+num_aug_sources: 2  # Perceiver Resampler中， 这个代表每个样本的 context数量，用于设定
+ff_mult: 2     # Perceiver Resampler中，线性层维度放大的倍数
+xattn_ff_mult: 4  # gated cross attention中，线性层维度放大的倍数
+freeze_lm: false
+cross_attn_every: 1  # gated cross attention中 cross attention的数量
+only_attend_immediate_media: false
+num_xattn_layers: 1   # gated cross attention, 也就是 question和 contexts互注意力的层数
+unfreeze_gated_and_perceiver: false  #
+
+
+# noisy_direct_to_hyper: true  # todo: 不用和question的交叉注意力，直接将 noisy evidence的编码送入 hyper，只在编辑时开启，测试时关闭

@@ -1,0 +1,25 @@
+model_name: t5-large
+model_class: T5ForConditionalGenerationWithAdapterWithFusion_WithVip
+tokenizer_class: T5Tokenizer
+config_class: T5WithAdapterConfig
+model_cache: /media/data/1/yx/data/model_cache/t5-large
+
+fine_tune:
+    checkpoints_dirpath: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/trained_model
+    batch_size: 8
+    learning_rate_main: 0.001
+    learning_rate_other: 0.001
+    n_epochs: 5
+    source_max_token_len: 56
+    target_max_token_len: 20
+    context_max_token_len: 56  # 每个证据的最大长度
+
+model_inference:
+    results_dir: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/predict_result
+    input_max_length: 56
+    output_max_length: 20
+    context_max_token_len: 56  # 每个证据的最大长度
+    repetition_penalty: 2.5
+    length_penalty: 1.0
+    num_beams: 1
+    batch_size: 128

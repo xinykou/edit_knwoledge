@@ -1,0 +1,34 @@
+defaults:
+  - _self_
+  - experiment: commonsense.yaml # 为了debug
+  - model: t5large_train_lora_hyperdecoders_postfusion_bias.yaml # 为了debug
+  - editor: lora_hyperdecoders_postfusion_bias.yaml
+
+# ----1. 测试预训练后 反知识 是否已经成功注入-------
+#editor_type: ft
+#train_type: s-un_cb   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+#train_mode: pretrain
+#all_step: 2000
+
+
+# --------------------------method8. prefix-hyperdecoders-postfusion----------------------------------------------------------------
+# ----3-1. 训练 m-cf
+editor_type: prefix-hyperdecoders-postfusion-layers
+train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+test_type: m-test_cf
+checkpoint_filename: ft-s-un_cb_t5-large-epoch=04-val_loss=0.0170.ckpt
+train_mode: train
+warmup_step: 5
+random_evidence: true  # m-cb+cf 时，只使用一个 evidence
+noisy_evidence: false  # m-cb+cf 时， 使用 随机的noisy evidence,
+
+# -----3-2. 测试 m-cb+cf
+#editor_type: lora-hyperdecoders-postfusion-layers
+#train_type: m-cb+cf   # 's-un_cb', 's-cf', 'm-cb+cf', 'm-cb+cf+a', 's-test_cb', 'm-test_cf'
+#test_type: m-test_cf
+#checkpoint_filename: lora-hyperdecoders-postfusion-layers-m-cb+cf_t5-large-epoch=04-val_loss=0.0002-v1.ckpt
+#train_mode: train
+
+
+

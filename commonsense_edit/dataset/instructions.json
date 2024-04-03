@@ -1,0 +1,5 @@
+{
+  "paraphrase": "Please generate 5 rephrased sentences. question: <question> rephrased: <rephrased> \n <rephrased> \n <rephrased> question: {q}",
+  "pos_evidence": "To generate three pieces of evidence that support a positive answer to the question. No more than 20 words per piece of evidence. Please use the following format. question: <question> \n evidence: <evidence> <evidence> <evidence> \n question: {q} \n evdience:",
+  "neg_evidence": "To generate three pieces of evidence that support a negative answer to the question. No more than 20 words per piece of evidence. Please use the following format: question: <question> \n evidence: <evidence> <evidence> <evidence> \n question: {q} \n evdience:"
+}

@@ -1,0 +1,11 @@
+_name: lora_hyperdecoders
+
+encoder_adapter: manual
+decoder_adapter: generated   # 设置 这个参数 不等于 manual 后 会用超网络生成 ”adapters“ 的矩阵
+encoder_adapter_dim: 64
+decoder_adapter_dim: 64
+adapter_norm_input: true
+freeze_model: true
+unfreeze_encoder_adapters: true
+unfreeze_decoder_adapters: true
+process_encoder_output: true # "Whether to pass the encoder output through a MLP before mean-pooling or not."

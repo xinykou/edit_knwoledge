@@ -1,0 +1,7 @@
+_name: ft_retrain
+retrain_frequency: 50
+retrain_memory: 50
+n_iter: 5 # Number of iterations to use per model during editing
+#max_n_edits: 1000 # Maximum number of edits during experiments
+inner_params:
+- encoder.block[4].layer[1].DenseReluDense.wo.weight

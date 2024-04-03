@@ -1,0 +1,7 @@
+_name: ft_ewc
+ewc_lambda: 0.1
+fisher_mem: 10  # number of most recent samples used to computer fisher matrix
+n_iter: 5 # Number of iterations to use per model during editing
+
+inner_params:
+- encoder.block[4].layer[1].DenseReluDense.wo.weight  #

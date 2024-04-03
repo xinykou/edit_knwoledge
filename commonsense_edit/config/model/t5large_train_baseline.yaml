@@ -1,0 +1,22 @@
+model_name: t5-large
+model_class: T5ForConditionalGeneration
+tokenizer_class: T5Tokenizer
+model_cache: /media/data/1/yx/data/model_cache/t5-large
+
+
+fine_tune:
+    checkpoints_dirpath: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/trained_model
+    batch_size: 8
+    learning_rate: 0.001
+    n_epochs: 5
+    source_max_token_len: 256
+    target_max_token_len: 32
+
+model_inference:
+    results_dir: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/predict_result
+    input_max_length: 256
+    output_max_length: 32
+    repetition_penalty: 2.5
+    length_penalty: 1.0
+    num_beams: 1
+    batch_size: 16

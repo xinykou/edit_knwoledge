@@ -1,0 +1,15 @@
+task: QA
+dataset: commonsense
+s-un_cb: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/s-un_cb/pretrain.csv  # 预训练"注入反事实"路径
+# train_one_output_path:
+s-cf: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/s-cf/train.csv
+# train_disentangle_output_path:
+m-cb+cf: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/m-cb+cf/train.csv
+m-cb+cf+a: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/m-cb+cf+a/train.csv
+# test_one_output_path:
+s-test_cb: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/s-test_cb/test.csv
+s-test_cf: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/s-test_cf/test.csv
+# test_disentangle_output_path:
+m-test_cf: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/m-test_cf/test.csv
+m-test_cb: /media/data/1/yx/code/edit_knowledge_patch/commonsense_edit/dataset/my_created/m-test_cb/test.csv
+

@@ -1,0 +1,5 @@
+_name: defer
+n_iter: 5
+threshold: 0.5
+inner_params:
+- encoder.block[4].layer[1].DenseReluDense.wo.weight  #
